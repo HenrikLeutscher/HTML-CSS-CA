@@ -4,11 +4,36 @@
 }
 
 body {
-  color: var(--color-primary);
-  background-color: var(--color-secondary);
+
 }
 
 header {
   font-family: "Bebas Neue Regular", Verdana, Geneva, Tahoma, sans-serif;
   background-color: #25363C;
+}
+
+.mainpart {
+  background-image: url("../assets/images/nature.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1200px;
+}
+
+.logo2 {
+  background-color: rgb(37, 54, 60, 0.7);
+  border-radius: 20px;
+  padding-inline: 20px;
+  padding-block: 20px;
+}
+
+.shopnow {
+  padding-inline: 20px;
+  padding-block: 8px;
+  border-radius: 20px;
+  background: #25363C;
+  color:#12A1BB;
+}
+
+.ending {
+  color:#12A1BB;
 }
