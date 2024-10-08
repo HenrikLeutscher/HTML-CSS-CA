@@ -10,25 +10,58 @@ html, body {
 header {
   font-family: "Bebas Neue Regular", Verdana, Geneva, Tahoma, sans-serif;
   background-color: #25363C;
-  font-size: 25px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 30px;
+  padding: 10px 30px;
+}
+
+.logo1 {
+  width: 150px; 
+  height: auto;
+}
+
+nav {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center; 
 }
 
 .navbar {
-  display: flex;
-  gap: 20px;
   list-style: none;
+  display: flex;
+  gap: 150px; 
   padding: 0;
-  text-decoration: none;
+  margin: 0;
+  font-size: 40px;
+}
+
+.navbar li {
+  display: inline;
 }
 
 .navbar a {
+  color: #12A1BB; 
   text-decoration: none;
-  color: #12A1BB;
-  font-size: 35px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.icons {
+  display: flex;
+  gap: 20px; 
+}
+
+.icons .icon {
+  width: 30px; 
+  height: auto;
+}
+
+.icons a {
+  display: inline-block;
+  vertical-align: middle;
 }
   
 
@@ -39,11 +72,6 @@ header {
   height: 1200px;
   background-position: center;
   padding-top: 50px;
-}
-
-.logo1 {
-  height: 80px;
-  width: auto;
 }
 
 .logo2 {
