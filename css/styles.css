@@ -51,7 +51,7 @@ nav {
 
 .icons {
   display: flex;
-  gap: 20px; 
+  gap: 20px;
 }
 
 .icons .icon {
@@ -85,6 +85,7 @@ nav {
 }
 
 .shopnow {
+  font-family: "Bebas Neue Regular", Verdana, Geneva, Tahoma, sans-serif;
   font-size: 40px;
   padding-inline: 20px;
   padding-block: 8px;
@@ -102,14 +103,20 @@ nav {
   color:#12A1BB;
   text-decoration: none;
   display: flex;
-  gap: 30px;
-  font-size: 20px;
+  gap: 200px;
+  font-size: 30px;
 }
 
 
 .ending a {
   color: #12A1BB;
   text-decoration: none;
+}
+
+.logo3 {
+  padding-right: 200px;
+  width: 350px;
+  height: 210px;
 }
 
 footer {
