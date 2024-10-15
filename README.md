@@ -7,3 +7,7 @@ https://www.w3schools.com/howto/howto_css_circles.asp
 https://fontawesome.com/icons
 
 https://fonts.google.com/
+
+Code Academy Learnings:
+<em></em>
+<strong></strong>
