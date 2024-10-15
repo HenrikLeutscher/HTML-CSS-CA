@@ -33,6 +33,11 @@
   src: url("../../assets/fonts/NunitoSansMedium.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Nunito Sans Light";
+  src: url("../../assets/fonts/NunitoSansLight.ttf") format("truetype");
+}
+
 html, body {
   margin: 0;
 }
@@ -96,36 +101,89 @@ nav {
   
 
 .mainpart {
-  background-image: url("../../assets/images/nature.png");
+  background-color: #95B0B7;
+  color: #25363C;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 1200px;
+  height: auto;
   background-position: center;
-  padding-top: 50px;
+  padding: 20px;
 }
 
-.logo2 {
-  background-color: rgb(37, 54, 60, 0.8);
-  border-radius: 30px;
-  padding-inline: 20px;
-  padding-block: 20px;
-  display: block;
-  margin: auto;
-  width: fit-content;
+.mainpart h1 {
+  font-family: "Bebas Neue Bold", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: calc(5vh);
 }
 
-.shopnow {
-  font-family: "Bebas Neue Regular", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: calc(1.5vw + 1.5vh);
-  padding-inline: 20px;
-  padding-block: 8px;
+.mainpart h3 {
+  font-family: "Bebas Neue Bold", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: calc(3vh);
+}
+
+.mainpart p {
+  font-family: "Nunito Sans Light", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: calc(2vh);
+}
+
+.SocialMediaIcons {
+  font-family: "Nunito Sans Light", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: calc(2vh);
+  padding-bottom: 20px;
+}
+
+.SocialItem {
+  display: flex;
+  align-items: center;
+}
+
+.SocialIcon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.contactus {
+  background-color: white;
   border-radius: 20px;
-  background: #25363C;
-  color:#12A1BB;
+  padding: 20px;
+  padding-left: calc(10vh);
+  padding-right: calc(10vh);
+}
+
+.ContactUsForm form {
+  font-family: "Nunito Sans Light", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: calc(2vh);
+}
+
+.ContactUsForm button {
+  font-family: "Nunito Sans Regular", Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #12A1BB;
+  padding-left: calc(5vh);
+  padding-right: calc(5vh);
+
+  padding-bottom: calc(1vh);
+  padding-top: calc(1vh);
+  margin-top: calc(1vh);
+  font-size: calc(2vh);
+}
+
+input[type='text'],
+input[type='name'],
+input[type='email'],
+input[type='number'] {
+  padding: 10px;
+  height: calc(1vh);
+  width: calc(3vh + 15vw);
+  padding: 10px;
+}
+
+.form_input {
   display: block;
-  margin: auto;
-  width: fit-content;
-  text-decoration: none;
+  font-family: "Nunito Sans Regular", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.styled-form input::placeholder {
+  color: lightgrey;
 }
 
 .ending {
