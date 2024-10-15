@@ -4,6 +4,11 @@
 }
 
 @font-face {
+  font-family: "Bebas Neue Regular";
+  src: url("../../assets/fonts/BebasNeueRegular.ttf") format("truetype");
+}
+
+@font-face {
   font-family: "Nunito Sans Regular";
   src: url("../../assets/fonts/NunitoSansRegular.ttf") format("truetype");
 }
@@ -39,11 +44,11 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 30px;
+  padding: 10px 50px;
 }
 
 .logo1 {
-  width: 150px; 
+  width: calc(10vw);
   height: auto;
 }
 
@@ -81,7 +86,7 @@ nav {
 }
 
 .icons .icon {
-  width: 30px; 
+  width: calc(3vw);
   height: auto;
 }
 
@@ -99,6 +104,7 @@ nav {
   min-height: 100vh;
   flex-direction: column;
   display: grid;
+  grid-template-columns: max-content;
 }
 
 .jacket1 {
@@ -181,7 +187,7 @@ nav {
 .dotinstock {
   height: 25px;
   width: 25px;
-  background: green;
+  background: limegreen;
   border-radius: 20px;
   display: inline-block;
   margin-right: 10px;

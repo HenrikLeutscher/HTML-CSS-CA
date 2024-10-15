@@ -3,6 +3,36 @@
   src: url("../../assets/fonts/BebasNeueRegular.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Bebas Neue Regular";
+  src: url("../../assets/fonts/BebasNeueRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Nunito Sans Regular";
+  src: url("../../assets/fonts/NunitoSansRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Nunito Sans Bold";
+  src: url("../../assets/fonts/NunitoSansBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Nunito Sans Italic";
+  src: url("../../assets/fonts/NunitoSansItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Nunito Sans Light Italic";
+  src: url("../../assets/fonts/NunitoSansLightItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Nunito Sans Medium";
+  src: url("../../assets/fonts/NunitoSansMedium.ttf") format("truetype");
+}
+
 html, body {
   margin: 0;
 }
@@ -13,11 +43,11 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 30px;
+  padding: 10px 50px;
 }
 
 .logo1 {
-  width: 150px; 
+  width: calc(10vw);
   height: auto;
 }
 
@@ -55,7 +85,7 @@ nav {
 }
 
 .icons .icon {
-  width: 30px; 
+  width: calc(3vw);
   height: auto;
 }
 
@@ -66,13 +96,14 @@ nav {
   
 
 .mainpart {
+  font-family: "Nunito Sans Regular", Verdana, Geneva, Tahoma, sans-serif;
   background-color: #95B0B7;
   background-size: cover;
   padding: 20px;
   font-size: calc(1vw + 1vh);
 }
 
-.content {
+.mainpartcontent {
   background: white;
   max-width: 800px;
   padding: 20px;
@@ -80,6 +111,16 @@ nav {
   text-align: left;
   padding-block: 2px;
   border-radius: 40px;
+  color: #25363C;
+}
+
+.mainpartcontent h1 {
+  font-family: "Nunito Sans Bold", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: calc(1.5vw + 1.5vh);
+}
+
+.mainpartcontent p {
+  font-family: "Nunito Sans Regular", Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .ending {
