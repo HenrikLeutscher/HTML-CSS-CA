@@ -3,12 +3,38 @@
   src: url("../../assets/fonts/BebasNeueRegular.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Nunito Sans Regular";
+  src: url("../../assets/fonts/NunitoSansRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Nunito Sans Bold";
+  src: url("../../assets/fonts/NunitoSansBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Nunito Sans Italic";
+  src: url("../../assets/fonts/NunitoSansItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Nunito Sans Light Italic";
+  src: url("../../assets/fonts/NunitoSansLightItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Nunito Sans Medium";
+  src: url("../../assets/fonts/NunitoSansMedium.ttf") format("truetype");
+}
+
 html, body {
   margin: 0;
 }
 
 header {
   font-family: "Bebas Neue Regular", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: calc(1vw + 1vh);
   background-color: #25363C;
   display: flex;
   justify-content: space-between;
@@ -63,7 +89,6 @@ nav {
   display: inline-block;
   vertical-align: middle;
 }
-  
 
 .mainpart {
   background-color: #95B0B7;
@@ -74,9 +99,6 @@ nav {
   min-height: 100vh;
   flex-direction: column;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-gap: 20px;
 }
 
 .jacket1 {
@@ -86,14 +108,30 @@ nav {
   max-width: 600px;
 }
 
+.genderclass {
+  font-family: "Nunito Sans Light Italic", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: calc(1vw + 1vh);
+}
+
+.productname {
+  font-family: "Nunito Sans Bold", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: calc(1vw + 1vh);
+}
+.productprice {
+  font-family: "Nunito Sans Medium", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: calc(1vw + 1vh);
+}
+
 .productimage {
   display: flex;
-  max-width: 300px;
+  max-width: 400px;
   height: auto;
   margin-bottom: 20px;
+  display: flex;
 }
 
 .colors-product {
+  font-family: "Nunito Sans Medium", Verdana, Geneva, Tahoma, sans-serif;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -150,10 +188,12 @@ nav {
 }
 
 .instock {
+  font-family: "Nunito Sans Medium", Verdana, Geneva, Tahoma, sans-serif;
   display: inline-block;
 }
 
 .addtocart {
+  font-family: "Nunito Sans Medium", Verdana, Geneva, Tahoma, sans-serif;
   background-color: #00b4d8;
   color: white;
   border: none;
@@ -168,12 +208,12 @@ nav {
 
 .ending {
   font-family: "Bebas Neue Regular", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: calc(1vw + 1vh);
   background: #25363C;
   color:#12A1BB;
   text-decoration: none;
   display: flex;
   gap: 75px;
-  font-size: calc(1vw + 1vh);
 }
 
 
