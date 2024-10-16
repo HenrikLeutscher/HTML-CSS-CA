@@ -33,6 +33,11 @@
   src: url("../../assets/fonts/NunitoSansMedium.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Nunito Sans Light";
+  src: url("../../assets/fonts/NunitoSansLight.ttf") format("truetype");
+}
+
 html, body {
   margin: 0;
 }
@@ -104,23 +109,22 @@ nav {
 
 .mainpartcontent {
   background: white;
-  max-width: 800px;
-  padding: 20px;
-  margin: 0 auto;
-  text-align: left;
-  padding-block: 2px;
-  border-radius: 40px;
   color: #25363C;
+  text-align: left;
+  border-radius: 20px;
+  padding: 20px;
+  padding-left: calc(10vh);
+  padding-right: calc(10vh);
 }
 
 .mainpartcontent h1 {
-  font-family: "Nunito Sans Bold", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: calc(1.5vw + 1.5vh);
+  font-family: "Bebas Neue Bold", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: calc(2vw);
 }
 
 .mainpartcontent p {
-  font-family: "Nunito Sans Regular", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: calc(1vw + 1vh);
+  font-family: "Nunito Sans Light", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: calc(2vh);
 }
 
 .ending {
@@ -130,8 +134,10 @@ nav {
   text-decoration: none;
   display: flex;
   gap: 75px;
-  font-size: calc(1vw + 1vh);
+  font-size: calc(2.3vw);
   padding-top: 20px;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 

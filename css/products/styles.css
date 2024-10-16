@@ -4,11 +4,6 @@
 }
 
 @font-face {
-  font-family: "Bebas Neue Regular";
-  src: url("../../assets/fonts/BebasNeueRegular.ttf") format("truetype");
-}
-
-@font-face {
   font-family: "Nunito Sans Regular";
   src: url("../../assets/fonts/NunitoSansRegular.ttf") format("truetype");
 }
@@ -31,6 +26,11 @@
 @font-face {
   font-family: "Nunito Sans Medium";
   src: url("../../assets/fonts/NunitoSansMedium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Nunito Sans Light";
+  src: url("../../assets/fonts/NunitoSansLight.ttf") format("truetype");
 }
 
 html, body {
@@ -99,19 +99,85 @@ nav {
   background-color: #95B0B7;
   padding: 20px;
   font-size: calc(1vw + 1vh);
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  flex-direction: column;
   display: grid;
-  grid-template-columns: max-content;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  gap: 40px;
+  justify-content: start;
 }
 
 .jacket1 {
   background: white;
   border-radius: 40px;
   padding: 20px;
-  max-width: 600px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.jacket2 {
+  background: white;
+  border-radius: 40px;
+  padding: 20px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.jacket3 {
+  background: white;
+  border-radius: 40px;
+  padding: 20px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.jacket4 {
+  background: white;
+  border-radius: 40px;
+  padding: 20px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.jacket5 {
+  background: white;
+  border-radius: 40px;
+  padding: 20px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.jacket6 {
+  background: white;
+  border-radius: 40px;
+  padding: 20px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.jacket7 {
+  background: white;
+  border-radius: 40px;
+  padding: 20px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.productimage img {
+  width: 100%;
+  height: auto;
+  object-fit: cover; 
 }
 
 .genderclass {
@@ -130,7 +196,6 @@ nav {
 
 .productimage {
   display: flex;
-  max-width: 400px;
   height: auto;
   margin-bottom: 20px;
   display: flex;
@@ -143,9 +208,11 @@ nav {
   gap: 10px;
 }
 
+/* Jacket 1 */
+
 .dotproduct1 {
-  height: 25px;
-  width: 25px;
+  height: calc(1vw + 1vh);
+  width: calc(1vw + 1vh);
   background: #676767;
   border-radius: 20px;
   display: inline-block;
@@ -153,8 +220,8 @@ nav {
 }
 
 .dotproduct2 {
-  height: 25px;
-  width: 25px;
+  height: calc(1vw + 1vh);
+  width: calc(1vw + 1vh);
   background: #12A1BB;
   border-radius: 20px;
   display: inline-block;
@@ -162,8 +229,8 @@ nav {
 }
 
 .dotproduct3 {
-  height: 25px;
-  width: 25px;
+  height: calc(1vw + 1vh);
+  width: calc(1vw + 1vh);
   background: #25363C;
   border-radius: 20px;
   display: inline-block;
@@ -171,13 +238,15 @@ nav {
 }
 
 .dotproduct4 {
-  height: 25px;
-  width: 25px;
+  height: calc(1vw + 1vh);
+  width: calc(1vw + 1vh);
   background: #95B0B7;
   border-radius: 20px;
   display: inline-block;
   cursor: pointer;
 }
+
+/* Jacket1 Ending */
 
 .instockdotdiv {
   display: flex;
@@ -185,13 +254,307 @@ nav {
 }
 
 .dotinstock {
-  height: 25px;
-  width: 25px;
+  height: calc(1vw + 1vh);
+  width: calc(1vw + 1vh);
   background: limegreen;
   border-radius: 20px;
   display: inline-block;
   margin-right: 10px;
 }
+
+/* Jacket 2 */
+
+.jacket2 .dotproduct1 {
+  height: calc(1vw + 1vh);
+  width: calc(1vw + 1vh);
+  background: #676767;
+  border-radius: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.jacket2 .dotproduct2 {
+  height: calc(1vw + 1vh);
+  width: calc(1vw + 1vh);
+  background: #12A1BB;
+  border-radius: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.jacket2 .dotproduct3 {
+  height: calc(1vw + 1vh);
+  width: calc(1vw + 1vh);
+  background: #FFFF00;
+  border-radius: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.jacket2 .dotproduct4 {
+  height: calc(1vw + 1vh);
+  width: calc(1vw + 1vh);
+  background: #FF3C00;
+  border-radius: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.jacket2 .dotinstock {
+  height: calc(1vw + 1vh);
+  width: calc(1vw + 1vh);
+  background: limegreen;
+  border-radius: 20px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Jacket 2 End */
+
+/* Jacket 3 */
+
+.jacket3 .dotproduct1 {
+  height: calc(1vw + 1vh);
+  width: calc(1vw + 1vh);
+  background: #676767;
+  border-radius: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.jacket3 .dotproduct2 {
+  height: calc(1vw + 1vh);
+  width: calc(1vw + 1vh);
+  background: #12A1BB;
+  border-radius: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.jacket3 .dotproduct3 {
+  height: calc(1vw + 1vh);
+  width: calc(1vw + 1vh);
+  background: #A8A9A6;
+  border-radius: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.jacket3 .dotproduct4 {
+  height: calc(1vw + 1vh);
+  width: calc(1vw + 1vh);
+  background: #000000;
+  border-radius: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.jacket3 .dotinstock {
+  height: calc(1vw + 1vh);
+  width: calc(1vw + 1vh);
+  background: #E49C00;
+  border-radius: 20px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Jacket 3 End */
+
+/* Jacket 4 */
+
+.jacket4 .dotproduct1 {
+  height: calc(1vw + 1vh);
+  width: calc(1vw + 1vh);
+  background: #676767;
+  border-radius: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.jacket4 .dotproduct2 {
+  height: calc(1vw + 1vh);
+  width: calc(1vw + 1vh);
+  background: #12A1BB;
+  border-radius: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.jacket4 .dotproduct3 {
+  height: calc(1vw + 1vh);
+  width: calc(1vw + 1vh);
+  background: #57884C;
+  border-radius: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.jacket4 .dotproduct4 {
+  height: calc(1vw + 1vh);
+  width: calc(1vw + 1vh);
+  background: #E0E0E0;
+  border-radius: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.jacket4 .dotinstock {
+  height: calc(1vw + 1vh);
+  width: calc(1vw + 1vh);
+  background: limegreen;
+  border-radius: 20px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Jacket 4 End */
+
+/* Jacket 5 */
+
+.jacket5 .dotproduct1 {
+  height: calc(1vw + 1vh);
+  width: calc(1vw + 1vh);
+  background: #676767;
+  border-radius: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.jacket5 .dotproduct2 {
+  height: calc(1vw + 1vh);
+  width: calc(1vw + 1vh);
+  background: #12A1BB;
+  border-radius: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.jacket5 .dotproduct3 {
+  height: calc(1vw + 1vh);
+  width: calc(1vw + 1vh);
+  background: #DE3C25;
+  border-radius: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.jacket5 .dotproduct4 {
+  height: calc(1vw + 1vh);
+  width: calc(1vw + 1vh);
+  background: #9F9289;
+  border-radius: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.jacket5 .dotinstock {
+  height: calc(1vw + 1vh);
+  width: calc(1vw + 1vh);
+  background: limegreen;
+  border-radius: 20px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Jacket 5 End */
+
+/* Jacket 6 */
+
+.jacket6 .dotproduct1 {
+  height: calc(1vw + 1vh);
+  width: calc(1vw + 1vh);
+  background: #676767;
+  border-radius: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.jacket6 .dotproduct2 {
+  height: calc(1vw + 1vh);
+  width: calc(1vw + 1vh);
+  background: #12A1BB;
+  border-radius: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.jacket6 .dotproduct3 {
+  height: calc(1vw + 1vh);
+  width: calc(1vw + 1vh);
+  background: #25363C;
+  border-radius: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.jacket6 .dotproduct4 {
+  height: calc(1vw + 1vh);
+  width: calc(1vw + 1vh);
+  background: #D50100;
+  border-radius: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.jacket6 .dotinstock {
+  height: calc(1vw + 1vh);
+  width: calc(1vw + 1vh);
+  background: limegreen;
+  border-radius: 20px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Jacket6 End */
+
+/* Jacket 7 */
+
+.jacket7 .dotproduct1 {
+  height: calc(1vw + 1vh);
+  width: calc(1vw + 1vh);
+  background: #676767;
+  border-radius: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.jacket7 .dotproduct2 {
+  height: calc(1vw + 1vh);
+  width: calc(1vw + 1vh);
+  background: #12A1BB;
+  border-radius: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.jacket7 .dotproduct3 {
+  height: calc(1vw + 1vh);
+  width: calc(1vw + 1vh);
+  background: #25363C;
+  border-radius: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.jacket7 .dotproduct4 {
+  height: calc(1vw + 1vh);
+  width: calc(1vw + 1vh);
+  background: #7B7054;
+  border-radius: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.jacket7 .dotinstock {
+  height: calc(1vw + 1vh);
+  width: calc(1vw + 1vh);
+  background: limegreen;
+  border-radius: 20px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Jacket7 End */
 
 .instock {
   font-family: "Nunito Sans Medium", Verdana, Geneva, Tahoma, sans-serif;
@@ -214,12 +577,15 @@ nav {
 
 .ending {
   font-family: "Bebas Neue Regular", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: calc(1vw + 1vh);
   background: #25363C;
   color:#12A1BB;
   text-decoration: none;
   display: flex;
   gap: 75px;
+  font-size: calc(2.3vw);
+  padding-top: 20px;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 
