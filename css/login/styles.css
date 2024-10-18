@@ -1,0 +1,243 @@
+@font-face {
+  font-family: "Bebas Neue Regular";
+  src: url("../../assets/fonts/BebasNeueRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Bebas Neue Regular";
+  src: url("../../assets/fonts/BebasNeueRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Nunito Sans Regular";
+  src: url("../../assets/fonts/NunitoSansRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Nunito Sans Bold";
+  src: url("../../assets/fonts/NunitoSansBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Nunito Sans Italic";
+  src: url("../../assets/fonts/NunitoSansItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Nunito Sans Light Italic";
+  src: url("../../assets/fonts/NunitoSansLightItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Nunito Sans Medium";
+  src: url("../../assets/fonts/NunitoSansMedium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Nunito Sans Light";
+  src: url("../../assets/fonts/NunitoSansLight.ttf") format("truetype");
+}
+
+html, body {
+  margin: 0;
+}
+
+header {
+  font-family: "Bebas Neue Regular", Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #25363C;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+}
+
+.logo1 {
+  width: calc(10vw);
+  height: auto;
+}
+
+nav {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center; 
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  gap: 100px; 
+  padding: 0;
+  margin: 0;
+  font-size: calc(1.5vw + 1.5vh);
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar a {
+  color: #12A1BB; 
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+}
+
+.icons .icon {
+  width: calc(3vw);
+  height: auto;
+}
+
+.icons a {
+  display: inline-block;
+  vertical-align: middle;
+}
+  
+
+.mainpart {
+  background-color: #95B0B7;
+  color: #25363C;
+  background-size: cover;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainpart h1 {
+  font-family: "Bebas Neue Bold", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: calc(5vh);
+}
+
+.mainpart h3 {
+  font-family: "Bebas Neue Bold", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: calc(3vh);
+}
+
+.mainpart p {
+  font-family: "Nunito Sans Light", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: calc(2vh);
+}
+
+.SocialMediaIcons {
+  font-family: "Nunito Sans Light", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: calc(2vh);
+  padding-bottom: 20px;
+}
+
+.SocialItem {
+  display: flex;
+  align-items: center;
+}
+
+.SocialIcon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.login {
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  padding-left: calc(10vh);
+  padding-right: calc(10vh);
+}
+
+.loginForm form {
+  font-family: "Nunito Sans Light", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: calc(2vh);
+  display: grid;
+}
+
+.loginForm button {
+  font-family: "Nunito Sans Regular", Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #12A1BB;
+  padding-left: calc(5vh);
+  padding-right: calc(5vh);
+
+  padding-bottom: calc(1vh);
+  padding-top: calc(1vh);
+  margin-top: calc(1vh);
+  font-size: calc(2vh);
+}
+
+.registerForm form {
+  font-family: "Nunito Sans Light", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: calc(2vh);
+  display: grid;
+}
+
+.registerForm button {
+  font-family: "Nunito Sans Regular", Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #12A1BB;
+  padding-left: calc(5vh);
+  padding-right: calc(5vh);
+
+  padding-bottom: calc(1vh);
+  padding-top: calc(1vh);
+  margin-top: calc(1vh);
+  font-size: calc(2vh);
+}
+
+input[type='text'],
+input[type='name'],
+input[type='email'],
+input[type='number'] {
+  padding: 10px;
+  height: calc(1vh);
+  width: calc(3vh + 15vw);
+  padding: 10px;
+}
+
+.form_input {
+  display: block;
+  font-family: "Nunito Sans Regular", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.styled-form input::placeholder {
+  color: lightgrey;
+}
+
+.ending {
+  font-family: "Bebas Neue Regular", Verdana, Geneva, Tahoma, sans-serif;
+  background: #25363C;
+  color:#12A1BB;
+  text-decoration: none;
+  display: flex;
+  gap: 75px;
+  font-size: calc(2.3vw);
+  padding-top: 20px;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+
+.ending a {
+  color: #12A1BB;
+  text-decoration: none;
+  margin: 0 auto;
+  flex: 1;
+}
+
+.logo3 {
+  padding-right: 10px;
+  padding-left: 20px;
+  width: 350px;
+  height: 210px;
+}
+
+footer {
+  padding-top: 25px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  background: #25363C;
+  color: #12A1BB;
+  font-size: 15px;
+}
