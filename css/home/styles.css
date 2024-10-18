@@ -47,7 +47,7 @@ header {
 }
 
 .logo1 {
-  width: calc(10vw);
+  width: 125px;
   height: auto;
 }
 
@@ -85,7 +85,7 @@ nav {
 }
 
 .icons .icon {
-  width: calc(3vw);
+  width: 40px;
   height: auto;
 }
 
@@ -93,7 +93,6 @@ nav {
   display: inline-block;
   vertical-align: middle;
 }
-  
 
 .mainpart {
   background-image: url("../../assets/images/nature.png");
@@ -111,7 +110,8 @@ nav {
   padding-block: 20px;
   display: block;
   margin: auto;
-  width: fit-content;
+  width: 300px;
+  height: auto;
 }
 
 .shopnow {
