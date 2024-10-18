@@ -64,7 +64,7 @@ nav {
   gap: 100px; 
   padding: 0;
   margin: 0;
-  font-size: calc(1.5vw + 1.5vh);
+  font-size: 30px;
 }
 
 .navbar li {
@@ -206,13 +206,15 @@ nav {
   display: flex;
   align-items: center;
   gap: 10px;
+  font-size: 25px;
+  height: 1px;
 }
 
 /* Jacket 1 */
 
 .dotproduct1 {
-  height: calc(1vw + 1vh);
-  width: calc(1vw + 1vh);
+  height: 30px;
+  width: 30px;
   background: #676767;
   border-radius: 20px;
   display: inline-block;
@@ -220,8 +222,8 @@ nav {
 }
 
 .dotproduct2 {
-  height: calc(1vw + 1vh);
-  width: calc(1vw + 1vh);
+  height: 30px;
+  width: 30px;
   background: #12A1BB;
   border-radius: 20px;
   display: inline-block;
@@ -229,8 +231,8 @@ nav {
 }
 
 .dotproduct3 {
-  height: calc(1vw + 1vh);
-  width: calc(1vw + 1vh);
+  height: 30px;
+  width: 30px;
   background: #25363C;
   border-radius: 20px;
   display: inline-block;
@@ -238,8 +240,8 @@ nav {
 }
 
 .dotproduct4 {
-  height: calc(1vw + 1vh);
-  width: calc(1vw + 1vh);
+  height: 30px;
+  width: 30px;
   background: #95B0B7;
   border-radius: 20px;
   display: inline-block;
@@ -253,9 +255,14 @@ nav {
   align-items: center;
 }
 
+.instockdotdiv2 {
+  display: flex;
+  align-items: center;
+}
+
 .dotinstock {
-  height: calc(1vw + 1vh);
-  width: calc(1vw + 1vh);
+  height: 30px;
+  width: 30px;
   background: limegreen;
   border-radius: 20px;
   display: inline-block;
@@ -265,8 +272,8 @@ nav {
 /* Jacket 2 */
 
 .jacket2 .dotproduct1 {
-  height: calc(1vw + 1vh);
-  width: calc(1vw + 1vh);
+  height: 30px;
+  width: 30px;
   background: #676767;
   border-radius: 20px;
   display: inline-block;
@@ -274,8 +281,8 @@ nav {
 }
 
 .jacket2 .dotproduct2 {
-  height: calc(1vw + 1vh);
-  width: calc(1vw + 1vh);
+  height: 30px;
+  width: 30px;
   background: #12A1BB;
   border-radius: 20px;
   display: inline-block;
@@ -283,8 +290,8 @@ nav {
 }
 
 .jacket2 .dotproduct3 {
-  height: calc(1vw + 1vh);
-  width: calc(1vw + 1vh);
+  height: 30px;
+  width: 30px;
   background: #FFFF00;
   border-radius: 20px;
   display: inline-block;
@@ -292,8 +299,8 @@ nav {
 }
 
 .jacket2 .dotproduct4 {
-  height: calc(1vw + 1vh);
-  width: calc(1vw + 1vh);
+  height: 30px;
+  width: 30px;
   background: #FF3C00;
   border-radius: 20px;
   display: inline-block;
@@ -301,8 +308,8 @@ nav {
 }
 
 .jacket2 .dotinstock {
-  height: calc(1vw + 1vh);
-  width: calc(1vw + 1vh);
+  height: 30px;
+  width: 30px;
   background: limegreen;
   border-radius: 20px;
   display: inline-block;
@@ -314,8 +321,8 @@ nav {
 /* Jacket 3 */
 
 .jacket3 .dotproduct1 {
-  height: calc(1vw + 1vh);
-  width: calc(1vw + 1vh);
+  height: 30px;
+  width: 30px;
   background: #676767;
   border-radius: 20px;
   display: inline-block;
@@ -323,8 +330,8 @@ nav {
 }
 
 .jacket3 .dotproduct2 {
-  height: calc(1vw + 1vh);
-  width: calc(1vw + 1vh);
+  height: 30px;
+  width: 30px;
   background: #12A1BB;
   border-radius: 20px;
   display: inline-block;
@@ -332,8 +339,8 @@ nav {
 }
 
 .jacket3 .dotproduct3 {
-  height: calc(1vw + 1vh);
-  width: calc(1vw + 1vh);
+  height: 30px;
+  width: 30px;
   background: #A8A9A6;
   border-radius: 20px;
   display: inline-block;
@@ -341,8 +348,8 @@ nav {
 }
 
 .jacket3 .dotproduct4 {
-  height: calc(1vw + 1vh);
-  width: calc(1vw + 1vh);
+  height: 30px;
+  width: 30px;
   background: #000000;
   border-radius: 20px;
   display: inline-block;
@@ -350,8 +357,8 @@ nav {
 }
 
 .jacket3 .dotinstock {
-  height: calc(1vw + 1vh);
-  width: calc(1vw + 1vh);
+  height: 30px;
+  width: 30px;
   background: #E49C00;
   border-radius: 20px;
   display: inline-block;
@@ -363,8 +370,8 @@ nav {
 /* Jacket 4 */
 
 .jacket4 .dotproduct1 {
-  height: calc(1vw + 1vh);
-  width: calc(1vw + 1vh);
+  height: 30px;
+  width: 30px;
   background: #676767;
   border-radius: 20px;
   display: inline-block;
@@ -372,8 +379,8 @@ nav {
 }
 
 .jacket4 .dotproduct2 {
-  height: calc(1vw + 1vh);
-  width: calc(1vw + 1vh);
+  height: 30px;
+  width: 30px;
   background: #12A1BB;
   border-radius: 20px;
   display: inline-block;
@@ -381,8 +388,8 @@ nav {
 }
 
 .jacket4 .dotproduct3 {
-  height: calc(1vw + 1vh);
-  width: calc(1vw + 1vh);
+  height: 30px;
+  width: 30px;
   background: #57884C;
   border-radius: 20px;
   display: inline-block;
@@ -390,8 +397,8 @@ nav {
 }
 
 .jacket4 .dotproduct4 {
-  height: calc(1vw + 1vh);
-  width: calc(1vw + 1vh);
+  height: 30px;
+  width: 30px;
   background: #E0E0E0;
   border-radius: 20px;
   display: inline-block;
@@ -399,8 +406,8 @@ nav {
 }
 
 .jacket4 .dotinstock {
-  height: calc(1vw + 1vh);
-  width: calc(1vw + 1vh);
+  height: 30px;
+  width: 30px;
   background: limegreen;
   border-radius: 20px;
   display: inline-block;
@@ -412,8 +419,8 @@ nav {
 /* Jacket 5 */
 
 .jacket5 .dotproduct1 {
-  height: calc(1vw + 1vh);
-  width: calc(1vw + 1vh);
+  height: 30px;
+  width: 30px;
   background: #676767;
   border-radius: 20px;
   display: inline-block;
@@ -421,8 +428,8 @@ nav {
 }
 
 .jacket5 .dotproduct2 {
-  height: calc(1vw + 1vh);
-  width: calc(1vw + 1vh);
+  height: 30px;
+  width: 30px;
   background: #12A1BB;
   border-radius: 20px;
   display: inline-block;
@@ -430,8 +437,8 @@ nav {
 }
 
 .jacket5 .dotproduct3 {
-  height: calc(1vw + 1vh);
-  width: calc(1vw + 1vh);
+  height: 30px;
+  width: 30px;
   background: #DE3C25;
   border-radius: 20px;
   display: inline-block;
@@ -439,8 +446,8 @@ nav {
 }
 
 .jacket5 .dotproduct4 {
-  height: calc(1vw + 1vh);
-  width: calc(1vw + 1vh);
+  height: 30px;
+  width: 30px;
   background: #9F9289;
   border-radius: 20px;
   display: inline-block;
@@ -448,8 +455,8 @@ nav {
 }
 
 .jacket5 .dotinstock {
-  height: calc(1vw + 1vh);
-  width: calc(1vw + 1vh);
+  height: 30px;
+  width: 30px;
   background: limegreen;
   border-radius: 20px;
   display: inline-block;
@@ -461,8 +468,8 @@ nav {
 /* Jacket 6 */
 
 .jacket6 .dotproduct1 {
-  height: calc(1vw + 1vh);
-  width: calc(1vw + 1vh);
+  height: 30px;
+  width: 30px;
   background: #676767;
   border-radius: 20px;
   display: inline-block;
@@ -470,8 +477,8 @@ nav {
 }
 
 .jacket6 .dotproduct2 {
-  height: calc(1vw + 1vh);
-  width: calc(1vw + 1vh);
+  height: 30px;
+  width: 30px;
   background: #12A1BB;
   border-radius: 20px;
   display: inline-block;
@@ -479,8 +486,8 @@ nav {
 }
 
 .jacket6 .dotproduct3 {
-  height: calc(1vw + 1vh);
-  width: calc(1vw + 1vh);
+  height: 30px;
+  width: 30px;
   background: #25363C;
   border-radius: 20px;
   display: inline-block;
@@ -488,8 +495,8 @@ nav {
 }
 
 .jacket6 .dotproduct4 {
-  height: calc(1vw + 1vh);
-  width: calc(1vw + 1vh);
+  height: 30px;
+  width: 30px;
   background: #D50100;
   border-radius: 20px;
   display: inline-block;
@@ -497,8 +504,8 @@ nav {
 }
 
 .jacket6 .dotinstock {
-  height: calc(1vw + 1vh);
-  width: calc(1vw + 1vh);
+  height: 30px;
+  width: 30px;
   background: limegreen;
   border-radius: 20px;
   display: inline-block;
@@ -510,8 +517,8 @@ nav {
 /* Jacket 7 */
 
 .jacket7 .dotproduct1 {
-  height: calc(1vw + 1vh);
-  width: calc(1vw + 1vh);
+  height: 30px;
+  width: 30px;
   background: #676767;
   border-radius: 20px;
   display: inline-block;
@@ -519,8 +526,8 @@ nav {
 }
 
 .jacket7 .dotproduct2 {
-  height: calc(1vw + 1vh);
-  width: calc(1vw + 1vh);
+  height: 30px;
+  width: 30px;
   background: #12A1BB;
   border-radius: 20px;
   display: inline-block;
@@ -528,8 +535,8 @@ nav {
 }
 
 .jacket7 .dotproduct3 {
-  height: calc(1vw + 1vh);
-  width: calc(1vw + 1vh);
+  height: 30px;
+  width: 30px;
   background: #25363C;
   border-radius: 20px;
   display: inline-block;
@@ -537,8 +544,8 @@ nav {
 }
 
 .jacket7 .dotproduct4 {
-  height: calc(1vw + 1vh);
-  width: calc(1vw + 1vh);
+  height: 30px;
+  width: 30px;
   background: #7B7054;
   border-radius: 20px;
   display: inline-block;
@@ -546,8 +553,8 @@ nav {
 }
 
 .jacket7 .dotinstock {
-  height: calc(1vw + 1vh);
-  width: calc(1vw + 1vh);
+  height: 30px;
+  width: 30px;
   background: limegreen;
   border-radius: 20px;
   display: inline-block;
@@ -582,7 +589,7 @@ nav {
   text-decoration: none;
   display: flex;
   gap: 75px;
-  font-size: calc(2.3vw);
+  font-size: 25px;
   padding-top: 20px;
   flex-wrap: wrap;
   flex-direction: row;
@@ -609,4 +616,21 @@ footer {
   background: #25363C;
   color: #12A1BB;
   font-size: 15px;
+}
+
+@media (max-width: 768px) {
+  .mainpart {
+    background-size: cover;
+    font-size: 20px;
+  }
+
+  .jacket1,
+  .jacket2,
+  .jacket3,
+  .jacket4,
+  .jacket5,
+  .jacket6,
+  .jacket7 {
+  width: 300px;
+  }
 }

@@ -69,7 +69,7 @@ nav {
   gap: 100px; 
   padding: 0;
   margin: 0;
-  font-size: calc(1.5vw + 1.5vh);
+  font-size: 30px;
 }
 
 .navbar li {

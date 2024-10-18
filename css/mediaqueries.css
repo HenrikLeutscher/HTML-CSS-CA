@@ -1,0 +1,50 @@
+/* Media Queries */
+
+/* Global */
+
+@media (max-width: 768px) {
+  header {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px 20px;
+  }
+
+  .logo1 {
+    width: 125px;
+    height: auto;
+  }
+  nav {
+      margin-top: 10px;
+  }
+
+  .navbar {
+      flex-direction: row;
+      gap: 50px; /* Reduce gap between nav items */
+      font-size: 18px; /* Make the font smaller for mobile */
+      padding-bottom: 20px;
+  }
+
+  .icons {
+      gap: 10px; /* Reduce gap between icons */
+  }
+
+  .icons .icon {
+      width: 30px; /* Make icons smaller */
+  }
+
+  .ending {
+      flex-direction: column; /* Stack footer sections on mobile */
+      font-size: 18px; /* Smaller font size */
+      gap: 20px;
+  }
+
+  .logo3 {
+      width: 250px;
+      height: auto;
+  }
+
+  .shopnow {
+      font-size: 20px; 
+      padding: 10px 20px;
+  }
+}
