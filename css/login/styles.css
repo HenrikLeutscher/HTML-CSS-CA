@@ -154,6 +154,7 @@ nav {
   font-family: "Nunito Sans Light", Verdana, Geneva, Tahoma, sans-serif;
   font-size: calc(2vh);
   display: grid;
+  gap: 10px;
 }
 
 .loginForm button {
@@ -166,6 +167,7 @@ nav {
   padding-top: calc(1vh);
   margin-top: calc(1vh);
   font-size: calc(2vh);
+  border-radius: 20px;
 }
 
 .registerForm form {
@@ -184,6 +186,7 @@ nav {
   padding-top: calc(1vh);
   margin-top: calc(1vh);
   font-size: calc(2vh);
+  border-radius: 20px;
 }
 
 input[type='text'],
