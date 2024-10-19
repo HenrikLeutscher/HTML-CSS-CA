@@ -39,7 +39,6 @@ html, body {
 
 header {
   font-family: "Bebas Neue Regular", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: calc(1vw + 1vh);
   background-color: #25363C;
   display: flex;
   justify-content: space-between;
@@ -48,7 +47,7 @@ header {
 }
 
 .logo1 {
-  width: calc(10vw);
+  width: 125px;
   height: auto;
 }
 
@@ -86,7 +85,7 @@ nav {
 }
 
 .icons .icon {
-  width: calc(3vw);
+  width: 40px;
   height: auto;
 }
 
@@ -98,7 +97,7 @@ nav {
 .mainpart {
   background-color: #95B0B7;
   padding: 20px;
-  font-size: calc(1vw + 1vh);
+  font-size: 30px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
   gap: 40px;
@@ -182,16 +181,16 @@ nav {
 
 .genderclass {
   font-family: "Nunito Sans Light Italic", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: calc(1vw + 1vh);
+  font-size: 30px;
 }
 
 .productname {
   font-family: "Nunito Sans Bold", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: calc(1vw + 1vh);
+  font-size: 30px;
 }
 .productprice {
   font-family: "Nunito Sans Medium", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: calc(1vw + 1vh);
+  font-size: 30px;
 }
 
 .productimage {
@@ -570,8 +569,8 @@ nav {
 
 .addtocart {
   font-family: "Nunito Sans Medium", Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #00b4d8;
-  color: white;
+  background-color: #12A1BB;
+  color: #25363C;
   border: none;
   padding: 10px 20px;
   font-size: 1em;
@@ -589,7 +588,7 @@ nav {
   text-decoration: none;
   display: flex;
   gap: 75px;
-  font-size: 25px;
+  font-size: 30px;
   padding-top: 20px;
   flex-wrap: wrap;
   flex-direction: row;

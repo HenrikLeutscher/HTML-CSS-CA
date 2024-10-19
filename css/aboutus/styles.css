@@ -52,7 +52,7 @@ header {
 }
 
 .logo1 {
-  width: calc(10vw);
+  width: 125px;
   height: auto;
 }
 
@@ -90,7 +90,7 @@ nav {
 }
 
 .icons .icon {
-  width: calc(3vw);
+  width: 40px;
   height: auto;
 }
 
@@ -107,24 +107,29 @@ nav {
   padding: 20px;
 }
 
+.mainpartcontent img {
+  width: 800px;
+  height: auto;
+}
+
 .mainpartcontent {
   background: white;
   color: #25363C;
   text-align: left;
   border-radius: 20px;
   padding: 20px;
-  padding-left: calc(10vh);
-  padding-right: calc(10vh);
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 .mainpartcontent h1 {
   font-family: "Bebas Neue Bold", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: calc(2vw);
+  font-size: 35px;
 }
 
 .mainpartcontent p {
   font-family: "Nunito Sans Light", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: calc(2vh);
+  font-size: 30px;
 }
 
 .ending {
@@ -134,7 +139,7 @@ nav {
   text-decoration: none;
   display: flex;
   gap: 75px;
-  font-size: calc(2.3vw);
+  font-size: 30px;
   padding-top: 20px;
   flex-wrap: wrap;
   flex-direction: row;
@@ -161,4 +166,21 @@ footer {
   background: #25363C;
   color: #12A1BB;
   font-size: 15px;
+}
+
+@media (max-width: 768px) {
+  .mainpartcontent {
+    padding: 20px;
+  }
+  .mainpart h1 {
+    font-size: 20px;
+  }
+
+  .mainpart p {
+    font-size: 15px;
+  }
+
+  .mainpart img {
+    width: 310px;
+  }
 }

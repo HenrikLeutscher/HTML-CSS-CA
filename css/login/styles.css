@@ -53,7 +53,7 @@ header {
 }
 
 .logo1 {
-  width: calc(10vw);
+  width: 125px;
   height: auto;
 }
 
@@ -91,7 +91,7 @@ nav {
 }
 
 .icons .icon {
-  width: calc(3vw);
+  width: 40px;
   height: auto;
 }
 
@@ -113,81 +113,52 @@ nav {
 
 .mainpart h1 {
   font-family: "Bebas Neue Bold", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: calc(5vh);
+  font-size: 30px;
 }
 
 .mainpart h3 {
   font-family: "Bebas Neue Bold", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: calc(3vh);
+  font-size: 30px;
 }
 
 .mainpart p {
   font-family: "Nunito Sans Light", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: calc(2vh);
-}
-
-.SocialMediaIcons {
-  font-family: "Nunito Sans Light", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: calc(2vh);
-  padding-bottom: 20px;
-}
-
-.SocialItem {
-  display: flex;
-  align-items: center;
-}
-
-.SocialIcon {
-  width: 20px;
-  height: 20px;
-  margin-right: 8px;
+  font-size: 30px;
 }
 
 .login {
   background-color: white;
   border-radius: 20px;
   padding: 20px;
-  padding-left: calc(10vh);
-  padding-right: calc(10vh);
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 .loginForm form {
   font-family: "Nunito Sans Light", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: calc(2vh);
+  font-size: 20px;
   display: grid;
   gap: 10px;
 }
 
-.loginForm button {
+.loginForm button,
+.registerForm Button {
   font-family: "Nunito Sans Regular", Verdana, Geneva, Tahoma, sans-serif;
   background-color: #12A1BB;
-  padding-left: calc(5vh);
-  padding-right: calc(5vh);
+  padding-left: 80px;
+  padding-right: 80px;
 
-  padding-bottom: calc(1vh);
-  padding-top: calc(1vh);
-  margin-top: calc(1vh);
-  font-size: calc(2vh);
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: 10px;
+  font-size: 20px;
   border-radius: 20px;
 }
 
 .registerForm form {
   font-family: "Nunito Sans Light", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: calc(2vh);
+  font-size: 30px;
   display: grid;
-}
-
-.registerForm button {
-  font-family: "Nunito Sans Regular", Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #12A1BB;
-  padding-left: calc(5vh);
-  padding-right: calc(5vh);
-
-  padding-bottom: calc(1vh);
-  padding-top: calc(1vh);
-  margin-top: calc(1vh);
-  font-size: calc(2vh);
-  border-radius: 20px;
 }
 
 input[type='text'],
@@ -195,8 +166,8 @@ input[type='name'],
 input[type='email'],
 input[type='number'] {
   padding: 10px;
-  height: calc(1vh);
-  width: calc(3vh + 15vw);
+  height: 10px;
+  width: 300px;
   padding: 10px;
 }
 
@@ -216,7 +187,7 @@ input[type='number'] {
   text-decoration: none;
   display: flex;
   gap: 75px;
-  font-size: calc(2.3vw);
+  font-size: 30px;
   padding-top: 20px;
   flex-wrap: wrap;
   flex-direction: row;
@@ -244,4 +215,18 @@ footer {
   background: #25363C;
   color: #12A1BB;
   font-size: 15px;
+}
+
+@media (max-width: 768px) {
+  .login {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .loginForm h3 {
+    font-size: 25px;
+  }
+  .loginForm form {
+    font-size: 15px;
+  }
 }

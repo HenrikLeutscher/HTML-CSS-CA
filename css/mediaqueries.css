@@ -36,6 +36,7 @@
       flex-direction: column; /* Stack footer sections on mobile */
       font-size: 18px; /* Smaller font size */
       gap: 20px;
+      padding-left: 40px;
   }
 
   .logo3 {

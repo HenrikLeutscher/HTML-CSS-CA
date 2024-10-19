@@ -33,11 +33,6 @@
   src: url("../../assets/fonts/NunitoSansMedium.ttf") format("truetype");
 }
 
-@font-face {
-  font-family: "Nunito Sans Light";
-  src: url("../../assets/fonts/NunitoSansLight.ttf") format("truetype");
-}
-
 html, body {
   margin: 0;
 }
@@ -98,92 +93,149 @@ nav {
   display: inline-block;
   vertical-align: middle;
 }
-  
 
 .mainpart {
   background-color: #95B0B7;
-  color: #25363C;
   background-size: cover;
-  background-position: center;
+  padding: 1px;
+  color: #25363C;
+}
+
+/* Product Content Start */
+
+.product {
   padding: 20px;
-}
-
-.mainpart h1 {
-  font-family: "Bebas Neue Bold", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 35px;
-}
-
-.mainpart h3 {
-  font-family: "Bebas Neue Bold", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 30px;
-}
-
-.mainpart p {
-  font-family: "Nunito Sans Light", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 30px;
-}
-
-.SocialMediaIcons {
-  font-family: "Nunito Sans Light", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 30px;
-  padding-bottom: 20px;
-}
-
-.SocialItem {
-  display: flex;
-  align-items: center;
-}
-
-.SocialIcon {
-  width: 20px;
-  height: 20px;
-  margin-right: 8px;
-}
-
-.contactus {
   background-color: white;
   border-radius: 20px;
-  padding: 20px;
-  padding-left: 80px;
-  padding-right: 80px;
+  margin: 20px;
+  display: flex;
 }
 
-.ContactUsForm form {
-  font-family: "Nunito Sans Light", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 30px;
+.product img {
+  height: 750px;
+  width: auto;
 }
 
-.ContactUsForm button {
-  font-family: "Nunito Sans Regular", Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #12A1BB;
-  padding-left: 80px;
-  padding-right: 80px;
-
-  padding-bottom: 20px;
-  padding-top: 20px;
-  margin-top: 20px;
+.productcontent {
   font-size: 30px;
+  background-color: white;
   border-radius: 20px;
+  padding-left: 150px;
 }
 
-input[type='text'],
-input[type='name'],
-input[type='email'],
-input[type='number'] {
-  padding: 10px;
-  height: 20px;
-  width: 200px;
-  padding: 10px;
+.addtocart {
+  font-family: "Nunito Sans Medium", Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #12A1BB;
+  color: #25363C;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.form_input {
-  display: block;
-  font-family: "Nunito Sans Regular", Verdana, Geneva, Tahoma, sans-serif;
+.productname {
+  font-family: "Nunito Sans Bold", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 60px;
+}
+.productprice {
+  font-family: "Nunito Sans Italic", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 45px;
 }
 
-.styled-form input::placeholder {
-  color: lightgrey;
+.colors-product {
+  font-family: "Nunito Sans Medium", Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  font-size: 45px;
+  height: 1px;
 }
+
+.sizes {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding-top: 40px;
+  font-size: 45px;
+}
+
+.sizes p {
+  font-family: "Nunito Sans Medium", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sizes span {
+  font-family: "Nunito Sans Medium", Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #12A1BB;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 45px;
+}
+
+.dotproduct1 {
+  height: 60px;
+  width: 60px;
+  background: #676767;
+  border-radius: 100px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dotproduct2 {
+  height: 60px;
+  width: 60px;
+  background: #12A1BB;
+  border-radius: 100px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dotproduct3 {
+  height: 60px;
+  width: 60px;
+  background: #25363C;
+  border-radius: 100px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dotproduct4 {
+  height: 60px;
+  width: 60px;
+  background: #95B0B7;
+  border-radius: 100px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.instockdotdiv {
+  font-family: "Nunito Sans Medium", Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 45px;
+}
+
+.dotinstock {
+  height: 30px;
+  width: 30px;
+  background: limegreen;
+  border-radius: 100px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.productdescription {
+  font-family: "Nunito Sans Italic", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+}
+
+/* Product Content End */
 
 .ending {
   font-family: "Bebas Neue Regular", Verdana, Geneva, Tahoma, sans-serif;
@@ -220,36 +272,4 @@ footer {
   background: #25363C;
   color: #12A1BB;
   font-size: 15px;
-}
-
-@media (max-width: 768px) {
-  .contactus {
-    padding: 20px;
-  }
-  .contactus h1,
-  .contactus h3 {
-    font-size: 20px;
-  }
-
-  .mainpart p,
-  .SocialMediaIcons {
-    font-size: 15px;
-  }
-
-  .ContactUsForm form{
-    font-size: 15px;
-    padding-top: 10px;
-  }
-
-  .ContactUsForm button {
-    font-size: 15px;
-    padding-left: 50px;
-    padding-right: 50px;
-    
-    padding-bottom: 10px;
-    padding-top: 10px;
-    margin-top: 10px;
-    font-size: 15px;
-    border-radius: 20px;
-  }
 }

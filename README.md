@@ -11,3 +11,6 @@ https://fonts.google.com/
 Code Academy Learnings:
 <em></em>
 <strong></strong>
+
+About Us Image:
+https://pixabay.com/photos/buildings-droplets-drops-glass-1867550/
