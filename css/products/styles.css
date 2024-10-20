@@ -104,6 +104,11 @@ nav {
   justify-content: start;
 }
 
+.mainpart a {
+  text-decoration: none;
+  color: #25363C;
+}
+
 .jacket1 {
   background: white;
   border-radius: 40px;
