@@ -177,40 +177,31 @@ nav {
   font-size: 45px;
 }
 
-.dotproduct1 {
-  height: 60px;
-  width: 60px;
-  background: #676767;
-  border-radius: 100px;
-  display: inline-block;
-  cursor: pointer;
-}
-
-.dotproduct2 {
-  height: 60px;
-  width: 60px;
-  background: #12A1BB;
-  border-radius: 100px;
-  display: inline-block;
-  cursor: pointer;
-}
-
-.dotproduct3 {
-  height: 60px;
-  width: 60px;
-  background: #FFFF00;
-  border-radius: 100px;
-  display: inline-block;
-  cursor: pointer;
-}
-
+.dotproduct1,
+.dotproduct2,
+.dotproduct3,
 .dotproduct4 {
   height: 60px;
   width: 60px;
-  background: #FF3C00;
-  border-radius: 100px;
+  border-radius: 50%;
   display: inline-block;
   cursor: pointer;
+}
+
+.dotproduct1 {
+  background: #676767;
+}
+
+.dotproduct2 {
+  background: #12A1BB;
+}
+
+.dotproduct3 {
+  background: #FFFF00;
+}
+
+.dotproduct4 {
+  background: #FF3C00;
 }
 
 .instockdotdiv {

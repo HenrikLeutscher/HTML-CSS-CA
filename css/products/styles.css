@@ -35,6 +35,7 @@
 
 html, body {
   margin: 0;
+  overflow-x: hidden;
 }
 
 header {
@@ -109,65 +110,12 @@ nav {
   color: #25363C;
 }
 
-.jacket1 {
-  background: white;
-  border-radius: 40px;
-  padding: 20px;
-  max-width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.jacket2 {
-  background: white;
-  border-radius: 40px;
-  padding: 20px;
-  max-width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.jacket3 {
-  background: white;
-  border-radius: 40px;
-  padding: 20px;
-  max-width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.jacket4 {
-  background: white;
-  border-radius: 40px;
-  padding: 20px;
-  max-width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.jacket5 {
-  background: white;
-  border-radius: 40px;
-  padding: 20px;
-  max-width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.jacket6 {
-  background: white;
-  border-radius: 40px;
-  padding: 20px;
-  max-width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
+.jacket1,
+.jacket2,
+.jacket3,
+.jacket4,
+.jacket5,
+.jacket6,
 .jacket7 {
   background: white;
   border-radius: 40px;
@@ -636,5 +584,6 @@ footer {
   .jacket6,
   .jacket7 {
   width: 300px;
+  gap: 10px;
   }
 }

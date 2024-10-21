@@ -49,3 +49,57 @@
       padding: 10px 20px;
   }
 }
+
+
+/* Individual Product Page Media Queries */
+@media (max-width: 768px) {
+    .product {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    
+    }
+    
+    .productcontent {
+      border-radius: 20px;
+      padding-left: 1px;
+    }
+  
+    .addtocart,
+    .productprice,
+    .colors-product,
+    .sizes,
+    .sizes span,
+    .sizeoutofstock,
+    .instockdotdiv {
+      font-size: 15px;
+      gap: 15px;
+    }
+  
+  
+    .productcontent,
+    .productdescription {
+      font-size: 15px;
+    }
+  
+  
+    .productname {
+      font-size: 30px;
+    }
+  
+    .dotproduct1,
+    .dotproduct2,
+    .dotproduct3,
+    .dotproduct4,
+    .dotinstock {
+      height: 30px;
+      width: 30px;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+  
+    .product img {
+      height: auto;
+      width: auto;
+    }
+  }
