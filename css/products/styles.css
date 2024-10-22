@@ -1,4 +1,5 @@
 @import url(/css/global.css);
+@import url(/css/_variables.css);
 
 @font-face {
   font-family: "Bebas Neue Regular";
@@ -36,7 +37,7 @@
 }
 
 .mainpart {
-  background-color: #95B0B7;
+  background-color: var(--background-color);
   padding: 20px;
   font-size: 30px;
   display: grid;
@@ -47,7 +48,7 @@
 
 .mainpart a {
   text-decoration: none;
-  color: #25363C;
+  color: var(--color-primary);
 }
 
 .jacket1,
@@ -462,8 +463,8 @@
 
 .addtocart {
   font-family: "Nunito Sans Medium", Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #12A1BB;
-  color: #25363C;
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
   border: none;
   padding: 10px 20px;
   font-size: 1em;

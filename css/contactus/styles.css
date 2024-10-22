@@ -1,4 +1,5 @@
 @import url(/css/global.css);
+@import url(/css/_variables.css);
 
 @font-face {
   font-family: "Bebas Neue Regular";
@@ -41,8 +42,8 @@
 }
 
 .mainpart {
-  background-color: #95B0B7;
-  color: #25363C;
+  background-color: var(--background-color);
+  color: var(--color-primary);
   background-size: cover;
   background-position: center;
   padding: 20px;
@@ -95,13 +96,13 @@
 
 .ContactUsForm button {
   font-family: "Nunito Sans Regular", Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #12A1BB;
+  background-color: var(--color-secondary);
   padding-left: 80px;
   padding-right: 80px;
-
   padding-bottom: 20px;
   padding-top: 20px;
   margin-top: 20px;
+  border: none;
   font-size: 30px;
   border-radius: 20px;
 }

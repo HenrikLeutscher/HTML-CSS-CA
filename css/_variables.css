@@ -4,5 +4,8 @@
 :root {
   --color-primary: #25363C;
   --color-secondary: #12A1BB;
+  --background-color: #95B0B7;
   --default-text-color: #25363C;
 }
+
+@import url(/css/_variables.css);
