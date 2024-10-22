@@ -1,3 +1,5 @@
+@import url(/css/global.css);
+
 @font-face {
   font-family: "Bebas Neue Regular";
   src: url("../../assets/fonts/BebasNeueRegular.ttf") format("truetype");
@@ -31,68 +33,6 @@
 @font-face {
   font-family: "Nunito Sans Light";
   src: url("../../assets/fonts/NunitoSansLight.ttf") format("truetype");
-}
-
-html, body {
-  margin: 0;
-  overflow-x: hidden;
-}
-
-header {
-  font-family: "Bebas Neue Regular", Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #25363C;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 50px;
-}
-
-.logo1 {
-  width: 125px;
-  height: auto;
-}
-
-nav {
-  flex-grow: 1;
-  display: flex;
-  justify-content: center; 
-}
-
-.navbar {
-  list-style: none;
-  display: flex;
-  gap: 100px; 
-  padding: 0;
-  margin: 0;
-  font-size: 30px;
-}
-
-.navbar li {
-  display: inline;
-}
-
-.navbar a {
-  color: #12A1BB; 
-  text-decoration: none;
-}
-
-.navbar a:hover {
-  text-decoration: underline;
-}
-
-.icons {
-  display: flex;
-  gap: 20px;
-}
-
-.icons .icon {
-  width: 40px;
-  height: auto;
-}
-
-.icons a {
-  display: inline-block;
-  vertical-align: middle;
 }
 
 .mainpart {
@@ -532,42 +472,6 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.ending {
-  font-family: "Bebas Neue Regular", Verdana, Geneva, Tahoma, sans-serif;
-  background: #25363C;
-  color:#12A1BB;
-  text-decoration: none;
-  display: flex;
-  gap: 75px;
-  font-size: 30px;
-  padding-top: 20px;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-
-
-.ending a {
-  color: #12A1BB;
-  text-decoration: none;
-  margin: 0 auto;
-}
-
-.logo3 {
-  padding-right: 10px;
-  padding-left: 20px;
-  width: 350px;
-  height: 210px;
-}
-
-footer {
-  padding-top: 25px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  background: #25363C;
-  color: #12A1BB;
-  font-size: 15px;
 }
 
 @media (max-width: 768px) {
