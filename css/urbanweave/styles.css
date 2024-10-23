@@ -1,41 +1,6 @@
 @import url(/css/global.css);
 @import url(/css/_variables.css);
 
-@font-face {
-  font-family: "Bebas Neue Regular";
-  src: url("../../assets/fonts/BebasNeueRegular.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Bebas Neue Regular";
-  src: url("../../assets/fonts/BebasNeueRegular.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Nunito Sans Regular";
-  src: url("../../assets/fonts/NunitoSansRegular.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Nunito Sans Bold";
-  src: url("../../assets/fonts/NunitoSansBold.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Nunito Sans Italic";
-  src: url("../../assets/fonts/NunitoSansItalic.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Nunito Sans Light Italic";
-  src: url("../../assets/fonts/NunitoSansLightItalic.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Nunito Sans Medium";
-  src: url("../../assets/fonts/NunitoSansMedium.ttf") format("truetype");
-}
-
 .mainpart {
   background-color: var(--background-color);
   background-size: cover;

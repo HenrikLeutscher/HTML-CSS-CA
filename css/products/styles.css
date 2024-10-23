@@ -1,41 +1,6 @@
 @import url(/css/global.css);
 @import url(/css/_variables.css);
 
-@font-face {
-  font-family: "Bebas Neue Regular";
-  src: url("../../assets/fonts/BebasNeueRegular.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Nunito Sans Regular";
-  src: url("../../assets/fonts/NunitoSansRegular.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Nunito Sans Bold";
-  src: url("../../assets/fonts/NunitoSansBold.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Nunito Sans Italic";
-  src: url("../../assets/fonts/NunitoSansItalic.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Nunito Sans Light Italic";
-  src: url("../../assets/fonts/NunitoSansLightItalic.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Nunito Sans Medium";
-  src: url("../../assets/fonts/NunitoSansMedium.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Nunito Sans Light";
-  src: url("../../assets/fonts/NunitoSansLight.ttf") format("truetype");
-}
-
 .mainpart {
   background-color: var(--background-color);
   padding: 20px;
@@ -103,110 +68,143 @@
   height: 1px;
 }
 
+.dotproduct1,
+.dotproduct2,
+.dotproduct3,
+.dotproduct4,
+.dotproduct5,
+.dotproduct6,
+.dotproduct7,
+.jacket2 .dotproduct1,
+.jacket2 .dotproduct2,
+.jacket2 .dotproduct3,
+.jacket2 .dotproduct4,
+.jacket3 .dotproduct1,
+.jacket3 .dotproduct2,
+.jacket3 .dotproduct3,
+.jacket3 .dotproduct4,
+.jacket4 .dotproduct1,
+.jacket4 .dotproduct2,
+.jacket4 .dotproduct3,
+.jacket4 .dotproduct4,
+.jacket5 .dotproduct1,
+.jacket5 .dotproduct2,
+.jacket5 .dotproduct3,
+.jacket5 .dotproduct4,
+.jacket6 .dotproduct1,
+.jacket6 .dotproduct2,
+.jacket6 .dotproduct3,
+.jacket6 .dotproduct4,
+.jacket7 .dotproduct1,
+.jacket7 .dotproduct2,
+.jacket7 .dotproduct3,
+.jacket7 .dotproduct4 {
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dotinstock,
+.jacket2 .dotinstock,
+.jacket3 .dotinstock,
+.jacket4 .dotinstock,
+.jacket5 .dotinstock,
+.jacket6 .dotinstock,
+.jacket7 .dotinstock {
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.dotproduct1,
+.dotproduct2,
+.dotproduct3,
+.dotproduct4,
+.jacket2 .dotproduct1,
+.jacket2 .dotproduct2,
+.jacket2 .dotproduct3,
+.jacket2 .dotproduct4,
+.jacket3 .dotproduct1,
+.jacket3 .dotproduct2,
+.jacket3 .dotproduct3,
+.jacket3 .dotproduct4,
+.jacket4 .dotproduct1,
+.jacket4 .dotproduct2,
+.jacket4 .dotproduct3,
+.jacket4 .dotproduct4,
+.jacket5 .dotproduct1,
+.jacket5 .dotproduct2,
+.jacket5 .dotproduct3,
+.jacket5 .dotproduct4,
+.jacket6 .dotproduct1,
+.jacket6 .dotproduct2,
+.jacket6 .dotproduct3,
+.jacket6 .dotproduct4,
+.jacket7 .dotproduct1,
+.jacket7 .dotproduct2,
+.jacket7 .dotproduct3,
+.jacket7 .dotproduct4 {
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
 /* Jacket 1 */
 
 .dotproduct1 {
-  height: 30px;
-  width: 30px;
   background: #676767;
-  border-radius: 20px;
-  display: inline-block;
-  cursor: pointer;
 }
 
 .dotproduct2 {
-  height: 30px;
-  width: 30px;
   background: #12A1BB;
-  border-radius: 20px;
-  display: inline-block;
-  cursor: pointer;
 }
 
 .dotproduct3 {
-  height: 30px;
-  width: 30px;
   background: #25363C;
-  border-radius: 20px;
-  display: inline-block;
-  cursor: pointer;
 }
 
 .dotproduct4 {
-  height: 30px;
-  width: 30px;
   background: #95B0B7;
-  border-radius: 20px;
-  display: inline-block;
-  cursor: pointer;
 }
 
 /* Jacket1 Ending */
 
-.instockdotdiv {
-  display: flex;
-  align-items: center;
-}
-
+.instockdotdiv,
 .instockdotdiv2 {
   display: flex;
   align-items: center;
 }
 
 .dotinstock {
-  height: 30px;
-  width: 30px;
   background: limegreen;
-  border-radius: 20px;
-  display: inline-block;
-  margin-right: 10px;
 }
 
 /* Jacket 2 */
 
 .jacket2 .dotproduct1 {
-  height: 30px;
-  width: 30px;
   background: #676767;
-  border-radius: 20px;
-  display: inline-block;
-  cursor: pointer;
 }
 
 .jacket2 .dotproduct2 {
-  height: 30px;
-  width: 30px;
   background: #12A1BB;
-  border-radius: 20px;
-  display: inline-block;
-  cursor: pointer;
 }
 
 .jacket2 .dotproduct3 {
-  height: 30px;
-  width: 30px;
   background: #FFFF00;
-  border-radius: 20px;
-  display: inline-block;
-  cursor: pointer;
 }
 
 .jacket2 .dotproduct4 {
-  height: 30px;
-  width: 30px;
   background: #FF3C00;
-  border-radius: 20px;
-  display: inline-block;
-  cursor: pointer;
 }
 
 .jacket2 .dotinstock {
-  height: 30px;
-  width: 30px;
   background: limegreen;
-  border-radius: 20px;
-  display: inline-block;
-  margin-right: 10px;
 }
 
 /* Jacket 2 End */
@@ -214,48 +212,23 @@
 /* Jacket 3 */
 
 .jacket3 .dotproduct1 {
-  height: 30px;
-  width: 30px;
   background: #676767;
-  border-radius: 20px;
-  display: inline-block;
-  cursor: pointer;
 }
 
 .jacket3 .dotproduct2 {
-  height: 30px;
-  width: 30px;
   background: #12A1BB;
-  border-radius: 20px;
-  display: inline-block;
-  cursor: pointer;
 }
 
 .jacket3 .dotproduct3 {
-  height: 30px;
-  width: 30px;
   background: #A8A9A6;
-  border-radius: 20px;
-  display: inline-block;
-  cursor: pointer;
 }
 
 .jacket3 .dotproduct4 {
-  height: 30px;
-  width: 30px;
   background: #000000;
-  border-radius: 20px;
-  display: inline-block;
-  cursor: pointer;
 }
 
 .jacket3 .dotinstock {
-  height: 30px;
-  width: 30px;
   background: #E49C00;
-  border-radius: 20px;
-  display: inline-block;
-  margin-right: 10px;
 }
 
 /* Jacket 3 End */
@@ -263,48 +236,23 @@
 /* Jacket 4 */
 
 .jacket4 .dotproduct1 {
-  height: 30px;
-  width: 30px;
   background: #676767;
-  border-radius: 20px;
-  display: inline-block;
-  cursor: pointer;
 }
 
 .jacket4 .dotproduct2 {
-  height: 30px;
-  width: 30px;
   background: #12A1BB;
-  border-radius: 20px;
-  display: inline-block;
-  cursor: pointer;
 }
 
 .jacket4 .dotproduct3 {
-  height: 30px;
-  width: 30px;
   background: #57884C;
-  border-radius: 20px;
-  display: inline-block;
-  cursor: pointer;
 }
 
 .jacket4 .dotproduct4 {
-  height: 30px;
-  width: 30px;
   background: #E0E0E0;
-  border-radius: 20px;
-  display: inline-block;
-  cursor: pointer;
 }
 
 .jacket4 .dotinstock {
-  height: 30px;
-  width: 30px;
   background: limegreen;
-  border-radius: 20px;
-  display: inline-block;
-  margin-right: 10px;
 }
 
 /* Jacket 4 End */
@@ -312,48 +260,23 @@
 /* Jacket 5 */
 
 .jacket5 .dotproduct1 {
-  height: 30px;
-  width: 30px;
   background: #676767;
-  border-radius: 20px;
-  display: inline-block;
-  cursor: pointer;
 }
 
 .jacket5 .dotproduct2 {
-  height: 30px;
-  width: 30px;
   background: #12A1BB;
-  border-radius: 20px;
-  display: inline-block;
-  cursor: pointer;
 }
 
 .jacket5 .dotproduct3 {
-  height: 30px;
-  width: 30px;
   background: #DE3C25;
-  border-radius: 20px;
-  display: inline-block;
-  cursor: pointer;
 }
 
 .jacket5 .dotproduct4 {
-  height: 30px;
-  width: 30px;
   background: #9F9289;
-  border-radius: 20px;
-  display: inline-block;
-  cursor: pointer;
 }
 
 .jacket5 .dotinstock {
-  height: 30px;
-  width: 30px;
   background: limegreen;
-  border-radius: 20px;
-  display: inline-block;
-  margin-right: 10px;
 }
 
 /* Jacket 5 End */
@@ -361,48 +284,23 @@
 /* Jacket 6 */
 
 .jacket6 .dotproduct1 {
-  height: 30px;
-  width: 30px;
   background: #676767;
-  border-radius: 20px;
-  display: inline-block;
-  cursor: pointer;
 }
 
 .jacket6 .dotproduct2 {
-  height: 30px;
-  width: 30px;
   background: #12A1BB;
-  border-radius: 20px;
-  display: inline-block;
-  cursor: pointer;
 }
 
 .jacket6 .dotproduct3 {
-  height: 30px;
-  width: 30px;
   background: #25363C;
-  border-radius: 20px;
-  display: inline-block;
-  cursor: pointer;
 }
 
 .jacket6 .dotproduct4 {
-  height: 30px;
-  width: 30px;
   background: #D50100;
-  border-radius: 20px;
-  display: inline-block;
-  cursor: pointer;
 }
 
 .jacket6 .dotinstock {
-  height: 30px;
-  width: 30px;
   background: limegreen;
-  border-radius: 20px;
-  display: inline-block;
-  margin-right: 10px;
 }
 
 /* Jacket6 End */
@@ -410,48 +308,23 @@
 /* Jacket 7 */
 
 .jacket7 .dotproduct1 {
-  height: 30px;
-  width: 30px;
   background: #676767;
-  border-radius: 20px;
-  display: inline-block;
-  cursor: pointer;
 }
 
 .jacket7 .dotproduct2 {
-  height: 30px;
-  width: 30px;
   background: #12A1BB;
-  border-radius: 20px;
-  display: inline-block;
-  cursor: pointer;
 }
 
 .jacket7 .dotproduct3 {
-  height: 30px;
-  width: 30px;
   background: #25363C;
-  border-radius: 20px;
-  display: inline-block;
-  cursor: pointer;
 }
 
 .jacket7 .dotproduct4 {
-  height: 30px;
-  width: 30px;
   background: #7B7054;
-  border-radius: 20px;
-  display: inline-block;
-  cursor: pointer;
 }
 
 .jacket7 .dotinstock {
-  height: 30px;
-  width: 30px;
   background: limegreen;
-  border-radius: 20px;
-  display: inline-block;
-  margin-right: 10px;
 }
 
 /* Jacket7 End */

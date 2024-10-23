@@ -1,5 +1,4 @@
-/* Use this file to store your useful variables */
-/* This could be colors, fonts, or padding sizes! */
+@import url(/css/_variables.css);
 
 :root {
   --color-primary: #25363C;
@@ -7,5 +6,3 @@
   --background-color: #95B0B7;
   --default-text-color: #25363C;
 }
-
-@import url(/css/_variables.css);
