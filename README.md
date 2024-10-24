@@ -1,16 +1,25 @@
+# Front-End Development Course Assignment
+## HTML & CSS
+### Done by: Henrik Leutscher
+
+This was a part of the HTML & CSS Course at Noroff University College.
+This course was based on learning and creating both HTML & CSS for the Design Course previously done by following guidelines to fit the FED experience.
+
+## What I have learned:
+Learned to code HTML & CSS.
+Learned how to follow DRY principle and keep the code semantic.
+Learned how to implement responsive design.
+Learned how to implement Media to pages. (Images, sounds, Videos)
+And much more!
+
 # HTML & CSS CA
 
 Inspiration:
-Product Color Circles
 https://www.w3schools.com/howto/howto_css_circles.asp
 
 https://fontawesome.com/icons
 
 https://fonts.google.com/
-
-Code Academy Learnings:
-<em></em>
-<strong></strong>
 
 About Us Image:
 https://pixabay.com/photos/buildings-droplets-drops-glass-1867550/
