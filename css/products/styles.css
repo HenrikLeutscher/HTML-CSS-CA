@@ -4,7 +4,7 @@
 .mainpart {
   background-color: var(--background-color);
   padding: 20px;
-  font-size: 30px;
+  font-size: var(--mainfontsize);
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   gap: 40px;
@@ -40,16 +40,16 @@
 
 .genderclass {
   font-family: "Nunito Sans Light Italic", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 30px;
+  font-size: var(--mainfontsize);
 }
 
 .productname {
   font-family: "Nunito Sans Bold", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 30px;
+  font-size: var(--mainfontsize);
 }
 .productprice {
   font-family: "Nunito Sans Medium", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 30px;
+  font-size: var(--mainfontsize);
 }
 
 .productimage {
@@ -64,7 +64,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 25px;
+  font-size: var(--mainfontsize);
   height: 1px;
 }
 
@@ -75,79 +75,19 @@
 .dotproduct5,
 .dotproduct6,
 .dotproduct7,
-.jacket2 .dotproduct1,
-.jacket2 .dotproduct2,
-.jacket2 .dotproduct3,
-.jacket2 .dotproduct4,
-.jacket3 .dotproduct1,
-.jacket3 .dotproduct2,
-.jacket3 .dotproduct3,
-.jacket3 .dotproduct4,
-.jacket4 .dotproduct1,
-.jacket4 .dotproduct2,
-.jacket4 .dotproduct3,
-.jacket4 .dotproduct4,
-.jacket5 .dotproduct1,
-.jacket5 .dotproduct2,
-.jacket5 .dotproduct3,
-.jacket5 .dotproduct4,
-.jacket6 .dotproduct1,
-.jacket6 .dotproduct2,
-.jacket6 .dotproduct3,
-.jacket6 .dotproduct4,
-.jacket7 .dotproduct1,
-.jacket7 .dotproduct2,
-.jacket7 .dotproduct3,
-.jacket7 .dotproduct4 {
-  height: 30px;
-  width: 30px;
-  border-radius: 20px;
-  display: inline-block;
-  cursor: pointer;
-}
-
-.dotinstock,
-.jacket2 .dotinstock,
-.jacket3 .dotinstock,
-.jacket4 .dotinstock,
-.jacket5 .dotinstock,
-.jacket6 .dotinstock,
-.jacket7 .dotinstock {
+.dotinstock {
   height: 30px;
   width: 30px;
   border-radius: 20px;
   display: inline-block;
   margin-right: 10px;
+  
 }
 
 .dotproduct1,
 .dotproduct2,
 .dotproduct3,
-.dotproduct4,
-.jacket2 .dotproduct1,
-.jacket2 .dotproduct2,
-.jacket2 .dotproduct3,
-.jacket2 .dotproduct4,
-.jacket3 .dotproduct1,
-.jacket3 .dotproduct2,
-.jacket3 .dotproduct3,
-.jacket3 .dotproduct4,
-.jacket4 .dotproduct1,
-.jacket4 .dotproduct2,
-.jacket4 .dotproduct3,
-.jacket4 .dotproduct4,
-.jacket5 .dotproduct1,
-.jacket5 .dotproduct2,
-.jacket5 .dotproduct3,
-.jacket5 .dotproduct4,
-.jacket6 .dotproduct1,
-.jacket6 .dotproduct2,
-.jacket6 .dotproduct3,
-.jacket6 .dotproduct4,
-.jacket7 .dotproduct1,
-.jacket7 .dotproduct2,
-.jacket7 .dotproduct3,
-.jacket7 .dotproduct4 {
+.dotproduct4 {
   height: 30px;
   width: 30px;
   border-radius: 20px;
@@ -340,18 +280,15 @@
   color: var(--color-primary);
   border: none;
   padding: 10px 20px;
-  font-size: 1em;
+  font-size: var(--buttonfontsize);
   border-radius: 20px;
   cursor: pointer;
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 @media (max-width: 768px) {
   .mainpart {
     background-size: cover;
-    font-size: 20px;
   }
 
   .jacket1,

@@ -10,33 +10,13 @@
 
 /* Product Content Start */
 
-.product {
-  padding: 20px;
-  background-color: white;
-  border-radius: 20px;
-  margin: 20px;
-  display: flex;
-}
-
-.product img {
-  height: 750px;
-  width: auto;
-}
-
-.productcontent {
-  font-size: 30px;
-  background-color: white;
-  border-radius: 20px;
-  padding-left: 150px;
-}
-
 .addtocart {
   font-family: "Nunito Sans Medium", Verdana, Geneva, Tahoma, sans-serif;
   background-color: var(--color-secondary);
   color: var(--default-text-color);
   border: none;
   padding: 10px 20px;
-  font-size: 1em;
+  font-size: var(--mainheaderfontsize);
   border-radius: 20px;
   cursor: pointer;
   display: flex;
@@ -46,11 +26,11 @@
 
 .productname {
   font-family: "Nunito Sans Bold", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 60px;
+  font-size: var(--productnameheader);
 }
 .productprice {
   font-family: "Nunito Sans Italic", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 45px;
+  font-size: var(--mainheaderfontsize);
 }
 
 .colors-product {
@@ -58,7 +38,7 @@
   display: flex;
   align-items: center;
   gap: 50px;
-  font-size: 45px;
+  font-size: var(--mainheaderfontsize);
   height: 1px;
 }
 
@@ -67,7 +47,7 @@
   align-items: center;
   gap: 50px;
   padding-top: 40px;
-  font-size: 45px;
+  font-size: var(--mainheaderfontsize);
 }
 
 .sizes p {
@@ -81,7 +61,7 @@
   padding-bottom: 10px;
   padding-left: 15px;
   padding-right: 15px;
-  font-size: 45px;
+  font-size: var(--mainheaderfontsize);
 }
 
 .dotproduct1,
@@ -116,7 +96,7 @@
   display: flex;
   align-items: center;
   gap: 20px;
-  font-size: 45px;
+  font-size: var(--mainheaderfontsize);
 }
 
 .dotinstock {
@@ -130,5 +110,5 @@
 
 .productdescription {
   font-family: "Nunito Sans Italic", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 30px;
+  font-size: var(--mainfontsize);
 }

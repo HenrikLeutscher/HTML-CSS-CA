@@ -11,22 +11,22 @@
 
 .mainpart h1 {
   font-family: "Bebas Neue Bold", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 35px;
+  font-size: var(--mainheaderfontsize);
 }
 
 .mainpart h3 {
   font-family: "Bebas Neue Bold", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 30px;
+  font-size: var(--mainfontsize);
 }
 
 .mainpart p {
   font-family: "Nunito Sans Light", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 30px;
+  font-size: var(--mainfontsize);
 }
 
 .SocialMediaIcons {
   font-family: "Nunito Sans Light", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 30px;
+  font-size: var(--mainfontsize);
   padding-bottom: 20px;
 }
 
@@ -51,7 +51,7 @@
 
 .ContactUsForm form {
   font-family: "Nunito Sans Light", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 30px;
+  font-size: var(--mainfontsize);
 }
 
 .ContactUsForm button {
@@ -63,7 +63,7 @@
   padding-top: 20px;
   margin-top: 20px;
   border: none;
-  font-size: 30px;
+  font-size: var(--mainfontsize);
   border-radius: 20px;
 }
 
@@ -90,30 +90,26 @@ input[type='number'] {
   .contactus {
     padding: 20px;
   }
-  .contactus h1,
-  .contactus h3 {
-    font-size: 20px;
-  }
 
   .mainpart p,
   .SocialMediaIcons {
-    font-size: 15px;
+    font-size: var(--buttonfontsize);
   }
 
   .ContactUsForm form{
-    font-size: 15px;
+    font-size: var(--buttonfontsize);
     padding-top: 10px;
   }
 
   .ContactUsForm button {
-    font-size: 15px;
+    font-size: var(--buttonfontsize);
     padding-left: 50px;
     padding-right: 50px;
     
     padding-bottom: 10px;
     padding-top: 10px;
     margin-top: 10px;
-    font-size: 15px;
+    font-size: var(--buttonfontsize);
     border-radius: 20px;
   }
 }

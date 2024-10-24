@@ -12,12 +12,12 @@
 .mainpart h1,
 .mainpart h2 {
   font-family: "Nunito Sans Bold", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 40px;
+  font-size: var(--mainheaderfontsize);
 }
 
 .mainpart li,
 .mainpart p {
-  font-size: 20px;
+  font-size: var(--mainheaderfontsiz);
 }
 
 .ConfirmationContent {
@@ -43,7 +43,7 @@
   padding: 20px;
   padding-left: 40px;
   padding-right: 40px;
-  font-size: 20px;
+  font-size: var(--buttonfontsize);
   border-radius: 20px;
   cursor: pointer;
 }

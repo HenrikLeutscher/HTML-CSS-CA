@@ -23,7 +23,7 @@
 
 .shopnow {
   font-family: "Bebas Neue Regular", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 30px;
+  font-size: var(--mainheaderfontsize);
   padding-inline: 20px;
   padding-block: 8px;
   border-radius: 20px;

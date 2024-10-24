@@ -13,17 +13,12 @@
 
 .mainpart h1 {
   font-family: "Bebas Neue Bold", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 30px;
+  font-size: var(--mainheaderfontsize);
 }
 
 .mainpart h3 {
   font-family: "Bebas Neue Bold", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 30px;
-}
-
-.mainpart p {
-  font-family: "Nunito Sans Light", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 30px;
+  font-size: var(--mainheaderfontsize);
 }
 
 .login {
@@ -36,7 +31,7 @@
 
 .loginForm form {
   font-family: "Nunito Sans Light", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
+  font-size: var(--mainfontsize);
   display: grid;
   gap: 10px;
 }
@@ -51,13 +46,13 @@
   padding-bottom: 10px;
   padding-top: 10px;
   margin-top: 10px;
-  font-size: 20px;
+  font-size: var(--mainfontsize);
   border-radius: 20px;
 }
 
 .registerForm form {
   font-family: "Nunito Sans Light", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 30px;
+  font-size: var(--mainfontsize);
   display: grid;
 }
 
@@ -87,9 +82,11 @@ input[type='number'] {
   }
 
   .loginForm h3 {
-    font-size: 25px;
+    font-size: var(--phoneheadersize);
   }
-  .loginForm form {
-    font-size: 15px;
+
+  .loginForm form,
+  .registerForm h3 {
+    font-size: var(--phonemainfontsize);
   }
 }

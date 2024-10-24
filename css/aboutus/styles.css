@@ -25,12 +25,12 @@
 
 .mainpartcontent h1 {
   font-family: "Bebas Neue Bold", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 35px;
+  font-size: var(--mainheaderfontsize);
 }
 
 .mainpartcontent p {
   font-family: "Nunito Sans Light", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 30px;
+  font-size: var(--mainfontsize);
 }
 
 @media (max-width: 768px) {
@@ -38,11 +38,11 @@
     padding: 20px;
   }
   .mainpart h1 {
-    font-size: 20px;
+    font-size: var(--phoneheadersize);
   }
 
   .mainpart p {
-    font-size: 15px;
+    font-size: var(--phonemainfontsize);
   }
 
   .mainpart img {

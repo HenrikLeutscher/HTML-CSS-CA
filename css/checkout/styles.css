@@ -22,7 +22,7 @@
   display: flex;
   align-items: center;
   padding: 20px;
-  font-size: 20px;
+  font-size: var(--mainheaderfontsize);
 }
 
 .CheckoutNav img,
@@ -44,7 +44,7 @@
 .CheckoutProductInfo {
   display: flex;
   align-items: center;
-  font-size: 20px;
+  font-size: var(--mainfontsize);
 }
 
 .CheckoutProductInfo img {
@@ -66,7 +66,7 @@
 .VisaHeader,
 .PaypalHeader {
   font-family: "Nunito Sans Regular", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 40px;
+  font-size: var(--mainheaderfontsize);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -91,7 +91,7 @@
 
 .PaymentForm label {
   display: block;
-  font-size: 20px;
+  font-size: var(--mainheaderfontsize);
   margin-bottom: 5px;
 }
 
@@ -104,7 +104,7 @@
 }
 
 .Adress {
-  font-size: 20px;
+  font-size: var(--mainfontsize);
 }
 
 
@@ -115,7 +115,7 @@
   border: none;
   padding: 15px;
   border-radius: 10px;
-  font-size: 30px;
+  font-size: var(--mainfontsize);
   cursor: pointer;
   margin-top: 20px;
 }
@@ -124,7 +124,7 @@
   .CheckoutNav,
   .VisaHeader,
   .PaypalHeader {
-  font-size: 20px;
+  font-size: var(--phoneheadersize);
   }
 
   .CheckoutNav img,
@@ -142,7 +142,7 @@
   .CheckoutProductInfo p {
   font-family: "Nunito Sans Light", Verdana, Geneva, Tahoma, sans-serif;
   padding-left: 50px;
-  font-size: 10px;
+  font-size: var(--phonemainfontsize);
   }
 
   .VisaHeader img,
@@ -154,6 +154,6 @@
   .PaymentForm label,
   .PaymentForm input,
   .Adress {
-    font-size: 15px;
+    font-size: var(--phoneheadersize);
   }
 }
