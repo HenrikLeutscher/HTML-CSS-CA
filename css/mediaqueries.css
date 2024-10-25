@@ -105,3 +105,14 @@
     width: auto;
   }
 }
+
+/* Individual Product Page Media Queries */
+@media (max-width: 1268px) {
+
+  .product {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
