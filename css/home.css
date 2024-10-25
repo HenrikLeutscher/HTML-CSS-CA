@@ -1,5 +1,5 @@
-@import url(./global.css);
-@import url(./_variables.css);
+@import url(/css/global.css);
+@import url(/css/_variables.css);
 
 .mainpart {
   background-image: url("../assets/images/nature.png");
