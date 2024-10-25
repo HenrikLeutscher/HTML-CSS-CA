@@ -1,5 +1,6 @@
-@import url(/css/global.css);
-@import url(/css/_variables.css);
+@import url("../css/global.css");
+
+@import url("../css/_variables.css");
 
 @font-face {
   font-family: "Bebas Neue Regular";
