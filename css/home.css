@@ -1,6 +1,6 @@
 @import url("../css/global.css");
 
-@import url("../css/_variables.css");
+@import url("../css/variables.css");
 
 .mainpart {
   background-image: url("../assets/images/nature.png");
