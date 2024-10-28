@@ -1,36 +1,36 @@
 @font-face {
   font-family: "Bebas Neue Regular";
-  src: url("./assets/fonts/BebasNeueRegular.ttf") format("truetype");
+  src: url("assets/fonts/BebasNeueRegular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Nunito Sans Regular";
-  src: url("./assets/fonts/NunitoSansRegular.ttf") format("truetype");
+  src: url("assets/fonts/NunitoSansRegular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Nunito Sans Bold";
-  src: url("./assets/fonts/NunitoSansBold.ttf") format("truetype");
+  src: url("assets/fonts/NunitoSansBold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Nunito Sans Italic";
-  src: url("./assets/fonts/NunitoSansItalic.ttf") format("truetype");
+  src: url("assets/fonts/NunitoSansItalic.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Nunito Sans Light Italic";
-  src: url("./assets/fonts/NunitoSansLightItalic.ttf") format("truetype");
+  src: url("assets/fonts/NunitoSansLightItalic.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Nunito Sans Medium";
-  src: url("./assets/fonts/NunitoSansMedium.ttf") format("truetype");
+  src: url("assets/fonts/NunitoSansMedium.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Nunito Sans Light";
-  src: url("./assets/fonts/NunitoSansLight.ttf") format("truetype");
+  src: url("assets/fonts/NunitoSansLight.ttf") format("truetype");
 }
 
 html, body {
