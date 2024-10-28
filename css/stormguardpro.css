@@ -42,39 +42,6 @@
   height: 1px;
 }
 
-.sizes {
-  display: flex;
-  align-items: center;
-  gap: 50px;
-  padding-top: 40px;
-  font-size: var(--mainheaderfontsize);
-}
-
-.sizes p {
-  font-family: "Nunito Sans Medium", Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.sizes span {
-  font-family: "Nunito Sans Medium", Verdana, Geneva, Tahoma, sans-serif;
-  background-color: var(--color-secondary);
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
-  font-size: var(--mainheaderfontsize);
-}
-
-.dotproduct1,
-.dotproduct2,
-.dotproduct3,
-.dotproduct4 {
-  height: 60px;
-  width: 60px;
-  border-radius: 50%;
-  display: inline-block;
-  cursor: pointer;
-}
-
 .dotproduct1 {
   background: #676767;
 }
