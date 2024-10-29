@@ -64,7 +64,7 @@
   }
 
   .product {
-    max-width: 800px;
+    max-width: 700px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -74,6 +74,7 @@
     border-radius: 20px;
     padding-left: 1px;
     margin: 0 auto;
+    max-width: 500px;
   }
 
   .addtocart,
@@ -110,7 +111,7 @@
   }
 
   .product img {
-    height: 370px;
+    height: 500px;
     width: auto;
   }
 }
@@ -119,9 +120,10 @@
 @media (max-width: 1268px) {
 
   .product {
-    max-width: 100%;
+    max-width: 700px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    justify-content: center;
   }
 }
