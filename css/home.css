@@ -6,7 +6,7 @@
   background-image: url("../assets/images/nature.png");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 1200px;
+  height: 1000px;
   background-position: center;
   padding-top: 50px;
 }
@@ -34,12 +34,4 @@
   margin: auto;
   width: fit-content;
   text-decoration: none;
-}
-
-@media (max-width: 768px) {
-  .mainpart {
-      height: 600px;
-      background-size: cover;
-      padding-top: 30px;
-  }
 }

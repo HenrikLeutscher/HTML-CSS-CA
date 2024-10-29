@@ -34,6 +34,12 @@
   font-size: var(--mainfontsize);
 }
 
+@media (max-width: 950px) {
+  .mainpart img {
+    width: 310px;
+  }
+}
+
 @media (max-width: 768px) {
   .mainpartcontent {
     padding: 20px;
@@ -48,5 +54,6 @@
 
   .mainpart img {
     width: 310px;
+    height: auto;
   }
 }
