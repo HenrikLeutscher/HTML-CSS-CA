@@ -48,6 +48,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px 50px;
+  top: 0;
 }
 
 .logo1 {
