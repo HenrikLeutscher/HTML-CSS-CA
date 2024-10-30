@@ -2,7 +2,8 @@
 
 @import url("../css/variables.css");
 
-.mainpart {
+.mainpart,
+.ProductHeader {
   background-color: var(--background-color);
   padding: 20px;
   font-size: var(--mainfontsize);
@@ -12,9 +13,16 @@
   justify-content: start;
 }
 
-.mainpart a {
+.mainpart a,
+.ProductHeader {
   text-decoration: none;
   color: var(--color-primary);
+}
+
+.ProductHeader {
+  font-family: "Nunito Sans Bold", Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
 }
 
 .jacket1,
@@ -300,5 +308,9 @@
   .jacket7 {
   width: 300px;
   gap: 10px;
+  }
+
+  .ProductHeader {
+    font-size: var(--phonemainfontsize);
   }
 }
