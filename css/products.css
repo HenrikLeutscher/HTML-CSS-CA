@@ -25,6 +25,15 @@
   justify-content: center;
 }
 
+.ProductHeader h1 {
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  max-width: 100%;
+}
+
 .jacket1,
 .jacket2,
 .jacket3,

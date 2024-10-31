@@ -40,11 +40,14 @@
   font-family: "Nunito Sans Regular", Verdana, Geneva, Tahoma, sans-serif;
   margin-top: 20px;
   background-color: var(--color-secondary);
-  border: none;
   padding: 20px;
   padding-left: 40px;
   padding-right: 40px;
-  font-size: var(--buttonfontsize);
+  font-size: var(--mainfontsize);
   border-radius: 20px;
   cursor: pointer;
+}
+
+.ConfirmationButton Button:hover {
+  background-color: var(--hovercolor);
 }

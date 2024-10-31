@@ -62,6 +62,11 @@
   display: grid;
 }
 
+.registerForm button:hover,
+.loginForm button:hover {
+  background-color: var(--hovercolor);
+}
+
 input[type='text'],
 input[type='name'],
 input[type='email'],

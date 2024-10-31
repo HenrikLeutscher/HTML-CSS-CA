@@ -110,15 +110,19 @@
 
 
 .PayNow {
+  font-family: "Nunito Sans Regular", Verdana, Geneva, Tahoma, sans-serif;
   width: 100%;
   background-color: var(--color-secondary);
-  color: white;
-  border: none;
+  color: var(--default-text-color);
   padding: 15px;
   border-radius: 10px;
   font-size: var(--mainfontsize);
   cursor: pointer;
   margin-top: 20px;
+}
+
+.PayNow:hover {
+  background-color: var(--hovercolor);
 }
 
 @media (max-width: 768px) {
