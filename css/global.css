@@ -80,8 +80,10 @@ nav {
   text-decoration: none;
 }
 
-.navbar a:hover {
+.navbar a:hover,
+.header a:hover {
   text-decoration: underline;
+  color: var(--hovercolor);
 }
 
 .icons {
@@ -118,6 +120,10 @@ nav {
   text-decoration: none;
   margin: 0 auto;
   flex: 1;
+}
+
+.ending a:hover {
+  color: var(--hovercolor);
 }
 
 .logo3 {
@@ -198,6 +204,18 @@ footer {
   padding-right: 15px;
   font-size: var(--mainheaderfontsize);
   cursor: pointer;
+}
+
+.addtocart:hover,
+.sizes span:hover {
+  background: var(--hovercolor);
+}
+
+.dotproduct1:hover,
+.dotproduct2:hover,
+.dotproduct3:hover,
+.dotproduct4:hover {
+  border-style: dashed;
 }
 
 /* Global Center Content With Max-With */

@@ -41,6 +41,17 @@
   justify-content: space-between;
 }
 
+.jacket1:hover,
+.jacket2:hover,
+.jacket3:hover,
+.jacket4:hover,
+.jacket5:hover,
+.jacket6:hover,
+.jacket7:hover {
+  border-style: dashed;
+  border-color: var(--color-secondary);
+}
+
 .productimage img {
   width: 100%;
   height: auto;

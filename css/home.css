@@ -31,7 +31,12 @@
   background: var(--color-primary);
   color:var(--color-secondary);
   display: block;
-  margin: auto;
+  margin: 0 auto;
   width: fit-content;
   text-decoration: none;
+}
+
+.shopnow:hover {
+  color: var(--hovercolor);
+  text-decoration: underline;
 }

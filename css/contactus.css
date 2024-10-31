@@ -87,6 +87,11 @@ input[type='number'] {
   color: lightgrey;
 }
 
+.SubmitButton:hover {
+  background-color: var(--hovercolor);
+  cursor: pointer;
+}
+
 @media (max-width: 768px) {
   .contactus {
     padding: 20px;

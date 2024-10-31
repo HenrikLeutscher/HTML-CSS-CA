@@ -43,12 +43,17 @@
   background-color: var(--color-secondary);
   padding-left: 80px;
   padding-right: 80px;
-
   padding-bottom: 10px;
   padding-top: 10px;
   margin-top: 10px;
   font-size: var(--mainfontsize);
   border-radius: 20px;
+}
+
+.registerForm a,
+.loginForm a {
+  text-decoration: none;
+  color: var(--color-primary);
 }
 
 .registerForm form {
