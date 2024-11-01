@@ -1,7 +1,6 @@
 @import url("../css/global.css");
 
 @import url("../css/variables.css");
-
 .mainpart {
   font-family: "Nunito Sans Regular", Verdana, Geneva, Tahoma, sans-serif;
   background-color: var(--background-color);
