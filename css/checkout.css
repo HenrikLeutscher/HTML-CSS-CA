@@ -110,11 +110,15 @@
 
 
 .PayNow {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  border: 2px solid black;
   font-family: "Nunito Sans Regular", Verdana, Geneva, Tahoma, sans-serif;
   width: 100%;
   background-color: var(--color-secondary);
   color: var(--default-text-color);
-  padding: 15px;
+  padding: 15px 0px 15px 0px;
   border-radius: 10px;
   font-size: var(--mainfontsize);
   cursor: pointer;
