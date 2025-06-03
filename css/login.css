@@ -37,8 +37,10 @@
   gap: 10px;
 }
 
-.loginForm button,
-.registerForm Button {
+.loginForm a,
+.registerForm a {
+  display: flex;
+  justify-content: center;
   font-family: "Nunito Sans Regular", Verdana, Geneva, Tahoma, sans-serif;
   background-color: var(--color-secondary);
   padding-left: 80px;
@@ -47,6 +49,7 @@
   padding-top: 10px;
   margin-top: 10px;
   font-size: var(--mainfontsize);
+  border: 2px solid black;
   border-radius: 20px;
 }
 
