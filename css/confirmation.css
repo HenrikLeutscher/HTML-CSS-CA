@@ -36,7 +36,12 @@
   border-radius: 100%;
 }
 
-.ConfirmationButton Button {
+.ConfirmationButton {
+  display: flex;
+  justify-content: center;
+}
+
+.ConfirmationButton a {
   font-family: "Nunito Sans Regular", Verdana, Geneva, Tahoma, sans-serif;
   margin-top: 20px;
   background-color: var(--color-secondary);
@@ -46,8 +51,11 @@
   font-size: var(--mainfontsize);
   border-radius: 20px;
   cursor: pointer;
+  border: 2px solid black;
+  color: var(--color-primary);
+  text-decoration: none;
 }
 
-.ConfirmationButton Button:hover {
+.ConfirmationButton a:hover {
   background-color: var(--hovercolor);
 }
