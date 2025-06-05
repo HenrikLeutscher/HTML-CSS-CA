@@ -33,6 +33,49 @@
   src: url("../assets/fonts/nunitosanslight.ttf") format("truetype");
 }
 
+/* <animations> */
+
+
+@keyframes entry {
+	0% {
+		opacity: 0;
+		transform: translateY(250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes fadeEntry {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+
+body h1,
+body h2 {
+  animation: fadeEntry 2s ease 0s 1 normal forwards;
+}
+
+body h3,
+body p,
+body li {
+  animation: fadeEntry 3s ease 0s 1 normal forwards;
+}
+
+body img {
+  animation: fadeEntry 1s ease 0s 1 normal forwards;
+}
+
+/* </animtions> */
+
 html, body {
   margin: 0 auto;
   overflow-x: hidden;
@@ -46,7 +89,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 50px;
+  padding: 10px;
   top: 0;
 }
 
@@ -215,7 +258,7 @@ footer {
 .dotproduct2:hover,
 .dotproduct3:hover,
 .dotproduct4:hover {
-  border-style: dashed;
+  border-style: solid;
 }
 
 /* Global Center Content With Max-With */

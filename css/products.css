@@ -13,6 +13,13 @@
   justify-content: start;
 }
 
+/* Removing Grid for mobile view centering it*/
+@media (max-width: 779px) {
+  .mainpart {
+    grid-template-columns: none;
+  }
+}
+
 .mainpart a,
 .ProductHeader {
   text-decoration: none;
@@ -42,7 +49,7 @@
 .jacket6,
 .jacket7 {
   background: white;
-  border-radius: 40px;
+  border-radius: 20px;
   padding: 20px;
   max-width: 100%;
   display: flex;
@@ -57,7 +64,7 @@
 .jacket5:hover,
 .jacket6:hover,
 .jacket7:hover {
-  border-style: dashed;
+  border-style: solid;
   border-color: var(--color-secondary);
 }
 
@@ -326,8 +333,7 @@
   .jacket5,
   .jacket6,
   .jacket7 {
-  width: 300px;
-  gap: 10px;
+    gap: 10px;
   }
 
   .ProductHeader {
