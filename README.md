@@ -1,6 +1,8 @@
 # Front-End Development Course Assignment
 ## HTML & CSS
-### Done by: Henrik Leutscher
+
+![Rainydays](https://github.com/user-attachments/assets/4eab8a17-d786-4d7c-a503-b4a65e730082)
+
 
 This was a part of the HTML & CSS Course at Noroff University College.
 This course was based on learning and creating both HTML & CSS for the Design Course previously done by following guidelines to fit the FED experience.
