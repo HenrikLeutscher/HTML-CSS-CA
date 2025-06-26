@@ -16,7 +16,31 @@ And much more!
 
 # HTML & CSS CA
 
-Inspiration:
+# Getting Started:
+
+### Installing
+
+1. Clone the repo:
+
+```bash
+git clone git@github.com:HenrikLeutscher/HTML-CSS-CA
+```
+
+2. Install the dependencies:
+
+```
+npm install
+```
+
+### Running
+
+To run the app, run the following commands:
+
+```bash
+npm run start
+```
+
+# Inspiration:
 
 https://www.w3schools.com/howto/howto_css_circles.asp
 
